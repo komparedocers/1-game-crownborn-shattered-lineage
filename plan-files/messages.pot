@@ -1,0 +1,312 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Crownborn: Shattered Lineage\n"
+"POT-Creation-Date: 2025-11-08 18:52:49+0000\n"
+"PO-Revision-Date: 2025-11-08 18:52:49+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgctxt "game.title"
+msgid "Crownborn: Shattered Lineage"
+msgstr ""
+
+msgctxt "currency.name"
+msgid "Skycrowns"
+msgstr ""
+
+msgctxt "ui.play"
+msgid "Play"
+msgstr ""
+
+msgctxt "ui.shop"
+msgid "Shop"
+msgstr ""
+
+msgctxt "ui.leaderboard"
+msgid "Leaderboard"
+msgstr ""
+
+msgctxt "ui.settings"
+msgid "Settings"
+msgstr ""
+
+msgctxt "ui.quit"
+msgid "Quit"
+msgstr ""
+
+msgctxt "hud.lives"
+msgid "Lives"
+msgstr ""
+
+msgctxt "hud.ammo"
+msgid "Ammo"
+msgstr ""
+
+msgctxt "hud.sc"
+msgid "SC"
+msgstr ""
+
+msgctxt "hud.power_ready"
+msgid "Power Ready"
+msgstr ""
+
+msgctxt "shop.buy"
+msgid "Buy"
+msgstr ""
+
+msgctxt "shop.equip"
+msgid "Equip"
+msgstr ""
+
+msgctxt "shop.owned"
+msgid "Owned"
+msgstr ""
+
+msgctxt "shop.confirm"
+msgid "Confirm Purchase"
+msgstr ""
+
+msgctxt "shop.insufficient_sc"
+msgid "Not enough Skycrowns"
+msgstr ""
+
+msgctxt "leaderboard.global"
+msgid "Global"
+msgstr ""
+
+msgctxt "leaderboard.country"
+msgid "Country"
+msgstr ""
+
+msgctxt "leaderboard.friends"
+msgid "Friends"
+msgstr ""
+
+msgctxt "auth.guest"
+msgid "Continue as Guest"
+msgstr ""
+
+msgctxt "auth.link_account"
+msgid "Link Account"
+msgstr ""
+
+msgctxt "msg.rescue_complete"
+msgid "Rescue complete."
+msgstr ""
+
+msgctxt "msg.stage_begin"
+msgid "Mission start."
+msgstr ""
+
+msgctxt "msg.stage_complete"
+msgid "Mission complete."
+msgstr ""
+
+msgctxt "msg.boss_approaches"
+msgid "Boss approaches!"
+msgstr ""
+
+msgctxt "power.blink_step_short_range_teleport"
+msgid "Blink Step (short-range teleport)"
+msgstr ""
+
+msgctxt "power.whirlwind_nova_360_knockback"
+msgid "Whirlwind Nova (360° knockback)"
+msgstr ""
+
+msgctxt "power.shadow_veil_10s_invisibility"
+msgid "Shadow Veil (10s invisibility)"
+msgstr ""
+
+msgctxt "power.aerial_glide_long_jump_fall_control"
+msgid "Aerial Glide (long jump/fall control)"
+msgstr ""
+
+msgctxt "power.hawkeye_burst_multi_target_auto_bow_volley"
+msgid "Hawkeye Burst (multi-target auto-bow volley)"
+msgstr ""
+
+msgctxt "power.stoneguard_temporary_invulnerability"
+msgid "Stoneguard (temporary invulnerability)"
+msgstr ""
+
+msgctxt "power.spectral_decoy_lures_enemies"
+msgid "Spectral Decoy (lures enemies)"
+msgstr ""
+
+msgctxt "power.thunderbrand_charged_sword_cleave"
+msgid "Thunderbrand (charged sword cleave)"
+msgstr ""
+
+msgctxt "power.ember_dash_flame_dash_ignites_oil"
+msgid "Ember Dash (flame dash, ignites oil)"
+msgstr ""
+
+msgctxt "power.frostlock_freeze_cone"
+msgid "Frostlock (freeze cone)"
+msgstr ""
+
+msgctxt "power.chain_grapple_pull_to_ledges_enemies"
+msgid "Chain Grapple (pull to ledges/enemies)"
+msgstr ""
+
+msgctxt "power.time_slip_slow_time_briefly"
+msgid "Time Slip (slow time briefly)"
+msgstr ""
+
+msgctxt "power.viper_strike_stacking_bleed"
+msgid "Viper Strike (stacking bleed)"
+msgstr ""
+
+msgctxt "power.sanctum_ward_revive_once_per_stage_if_unused"
+msgid "Sanctum Ward (revive once per stage if unused)"
+msgstr ""
+
+msgctxt "power.sky_ascent_rapid_vertical_lift"
+msgid "Sky Ascent (rapid vertical lift)"
+msgstr ""
+
+msgctxt "boss.general_krath"
+msgid "General Krath"
+msgstr ""
+
+msgctxt "boss.matron_vess"
+msgid "Matron Vess"
+msgstr ""
+
+msgctxt "boss.dreadsmith_orun"
+msgid "Dreadsmith Orun"
+msgstr ""
+
+msgctxt "boss.high_warlock_zev"
+msgid "High Warlock Zev"
+msgstr ""
+
+msgctxt "boss.giant_golem_rauk"
+msgid "Giant Golem Rauk"
+msgstr ""
+
+msgctxt "boss.corsair_queen_nyra"
+msgid "Corsair Queen Nyra"
+msgstr ""
+
+msgctxt "boss.bonebreaker_hul"
+msgid "Bonebreaker Hul"
+msgstr ""
+
+msgctxt "boss.warden_keth"
+msgid "Warden Keth"
+msgstr ""
+
+msgctxt "boss.storm_titan_oxx"
+msgid "Storm Titan Oxx"
+msgstr ""
+
+msgctxt "boss.beastmother_siva"
+msgid "Beastmother Siva"
+msgstr ""
+
+msgctxt "shaman.line.001"
+msgid "Power without purpose is a candle in storm—shield your flame."
+msgstr ""
+
+msgctxt "shaman.line.002"
+msgid "When wolves circle, become the wind, not the tree."
+msgstr ""
+
+msgctxt "shaman.line.003"
+msgid "Every fortress has a forgotten vein; feel for its pulse."
+msgstr ""
+
+msgctxt "shaman.line.004"
+msgid "Listen for lies in the quiet between war drums."
+msgstr ""
+
+msgctxt "shaman.line.005"
+msgid "Mercy is a blade—wield it or sheath it with intent."
+msgstr ""
+
+msgctxt "shaman.line.006"
+msgid "The sky carries you if you leap with wisdom."
+msgstr ""
+
+msgctxt "shaman.line.007"
+msgid "Your blood remembers thrones; let your heart remember people."
+msgstr ""
+
+msgctxt "shaman.line.008"
+msgid "A map shows walls; breath finds doors."
+msgstr ""
+
+msgctxt "shaman.line.009"
+msgid "Count the steps of your fear, then step once more."
+msgstr ""
+
+msgctxt "shaman.line.010"
+msgid "Even giants drown in inches of truth."
+msgstr ""
+
+msgctxt "player.bark.low_health"
+msgid "I need a breath—now!"
+msgstr ""
+
+msgctxt "player.bark.power_ready"
+msgid "Power’s back online."
+msgstr ""
+
+msgctxt "player.bark.rescue_done"
+msgid "You’re safe. Can you walk?"
+msgstr ""
+
+msgctxt "player.bark.stealth_spotted"
+msgid "So much for quiet."
+msgstr ""
+
+msgctxt "player.bark.finisher"
+msgid "Down you go."
+msgstr ""
+
+msgctxt "cinematic.quote.01"
+msgid "You are **Crownborn**."
+msgstr ""
+
+msgctxt "cinematic.quote.02"
+msgid "Your blood remembers thrones."
+msgstr ""
+
+msgctxt "cinematic.quote.03"
+msgid "loot beams"
+msgstr ""
+
+msgctxt "cinematic.quote.04"
+msgid "Every fortress has a forgotten vein; feel for its pulse."
+msgstr ""
+
+msgctxt "cinematic.quote.05"
+msgid "Count the steps of your fear, then step once more."
+msgstr ""
+
+msgctxt "cinematic.quote.06"
+msgid "Your blood remembers thrones; let your heart remember people."
+msgstr ""
+
+msgctxt "cinematic.quote.07"
+msgid "They took them when the rain began. I counted the lanterns. I counted my breath. I ran."
+msgstr ""
+
+msgctxt "cinematic.quote.08"
+msgid "Maps are not walls. They are **doors** you have not opened yet."
+msgstr ""
+
+msgctxt "cinematic.quote.09"
+msgid "I could have ended him. I chose the oath instead. My hands wouldn’t stop shaking."
+msgstr ""
+
+msgctxt "cinematic.quote.10"
+msgid "A crown is a promise that outlives us. Mind the promise."
+msgstr ""
+

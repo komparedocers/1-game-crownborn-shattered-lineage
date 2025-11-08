@@ -1,0 +1,134 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Throne of Ashes Mission Bundle",
+  "type": "object",
+  "properties": {
+    "formatVersion": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "exportedAt": {
+      "type": "string"
+    },
+    "missions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "variant": {
+            "type": "string",
+            "enum": [
+              "boy",
+              "girl"
+            ]
+          },
+          "location": {
+            "type": "string"
+          },
+          "relative": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "category": {
+                "type": "string",
+                "enum": [
+                  "women",
+                  "men",
+                  "children"
+                ]
+              }
+            },
+            "required": [
+              "name",
+              "category"
+            ]
+          },
+          "narrative": {
+            "type": "object",
+            "properties": {
+              "revelationOrMilestone": {
+                "type": "string"
+              }
+            }
+          },
+          "enemies": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          },
+          "boss": {
+            "type": "object",
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "weakness": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "name",
+              "weakness"
+            ]
+          },
+          "mission": {
+            "type": "object",
+            "properties": {
+              "hook": {
+                "type": "string"
+              },
+              "mapFeatures": {
+                "type": "string"
+              },
+              "stealthTip": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "hook"
+            ]
+          },
+          "rewards": {
+            "type": "object",
+            "properties": {
+              "powerUnlocked": {
+                "type": "string"
+              }
+            }
+          },
+          "guidance": {
+            "type": "object",
+            "properties": {
+              "shamanWisdom": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "required": [
+          "id",
+          "variant",
+          "location",
+          "relative",
+          "enemies",
+          "boss",
+          "mission"
+        ]
+      }
+    }
+  },
+  "required": [
+    "formatVersion",
+    "title",
+    "exportedAt",
+    "missions"
+  ]
+}

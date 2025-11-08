@@ -1,0 +1,9 @@
+SceneKey,Order,Act,Title,Beat,Camera,SFX,Music
+opening_raid,1,Act I,Lanterns in Rain,"Night raid begins; close on lanterns, frantic breaths.",Handheld close-up → whip-pan,"Rain on tin, distant shouts","Low pads, heartbeats"
+opening_raid,2,Act I,Run & Hide,Player darts through crates; near-miss patrol.,Over-shoulder track,"Boots on wet wood, dog bark",Percussive pulse
+stage_2_reveal,1,Act I,Name of the Line,Elder reveals crownbirth during storm.,"Locked two-shot, shallow DOF","Thunder, breath, cloth rustle","String swell, quiet motif"
+sigil_heart_50,1,Act II,Mercy Mid-Fight,Free conscripts; boss tactic collapses; Heart ignites.,Wide with dolly-in,"Chains falling, gasps",Theme: Heart motif
+sigil_hand_100,1,Act III,Law Before Wrath,Bind magistrate to testify; townspeople watching.,Tripod civic framing,"Paper seal, murmurs",Theme: Hand motif
+final_ascent_150,1,Act IV,Stormglass Bridge,Lightning crawls rails; choice to save valley.,Crane shot on bridge,"Electric crackle, wind",Theme: Horizon motif
+final_duel,1,Act IV,Break the Chains,Sever conductive chains; armor loses power.,Medium action coverage,"Metal shriek, sparks",Battle motif rising
+final_duel,2,Act IV,Decision,Mercy / Iron / Wanderer final choice.,"Centered, slow push-in","Faint crowd, wind-down",Resolve motif (branching)
