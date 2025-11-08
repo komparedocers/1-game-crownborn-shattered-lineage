@@ -1,0 +1,19 @@
+[gd_scene load_steps=2 format=3 uid="uid://main_scene"]
+
+[ext_resource type="PackedScene" uid="uid://ui_main_menu" path="res://scenes/ui/main_menu.tscn" id="1"]
+
+[node name="Main" type="Node"]
+
+[node name="MainMenu" parent="." instance=ExtResource("1")]
+
+[node name="GameState" type="Node" parent="."]
+script = "res://scripts/GameState.gd"
+
+[node name="NetClient" type="Node" parent="."]
+script = "res://scripts/NetClient.gd"
+
+[node name="PaymentManager" type="Node" parent="."]
+script = "res://scripts/PaymentManager.gd"
+
+[node name="MissionLoader" type="Node" parent="."]
+script = "res://scripts/MissionLoader.gd"

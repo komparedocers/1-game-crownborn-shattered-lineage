@@ -1,0 +1,75 @@
+[gd_scene load_steps=9 format=3 uid="uid://boss_base"]
+
+[ext_resource type="Script" path="res://scripts/Boss.gd" id="1"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_boss_body"]
+height = 3.0
+radius = 0.8
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape_boss_collision"]
+height = 3.0
+radius = 0.8
+
+[sub_resource type="StandardMaterial3D" id="Material_boss"]
+albedo_color = Color(0.5, 0.1, 0.1, 1)
+metallic = 0.6
+roughness = 0.4
+
+[sub_resource type="SphereMesh" id="SphereMesh_crown"]
+radius = 0.3
+height = 0.6
+
+[sub_resource type="StandardMaterial3D" id="Material_crown"]
+albedo_color = Color(0.8, 0.6, 0.1, 1)
+metallic = 0.9
+
+[sub_resource type="SphereShape3D" id="SphereShape_attack_area"]
+radius = 8.0
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_aura"]
+
+[node name="Boss" type="CharacterBody3D" groups=["bosses"]]
+script = ExtResource("1")
+
+[node name="Body" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 0)
+mesh = SubResource("CapsuleMesh_boss_body")
+surface_material_override/0 = SubResource("Material_boss")
+
+[node name="Crown" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.2, 0)
+mesh = SubResource("SphereMesh_crown")
+surface_material_override/0 = SubResource("Material_crown")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 0)
+shape = SubResource("CapsuleShape_boss_collision")
+
+[node name="AttackArea" type="Area3D" parent="."]
+
+[node name="AttackShape" type="CollisionShape3D" parent="AttackArea"]
+shape = SubResource("SphereShape_attack_area")
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+
+[node name="AuraParticles" type="GPUParticles3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.5, 0)
+amount = 50
+process_material = SubResource("ParticleProcessMaterial_aura")
+emitting = true
+
+[node name="HealthBar" type="ProgressBar" parent="."]
+offset_left = -50.0
+offset_top = -50.0
+offset_right = 50.0
+offset_bottom = -40.0
+value = 100.0
+show_percentage = true
+
+[node name="PhaseLabel" type="Label" parent="."]
+offset_left = -50.0
+offset_top = -60.0
+offset_right = 50.0
+offset_bottom = -50.0
+text = "Phase 1"
+horizontal_alignment = 1
