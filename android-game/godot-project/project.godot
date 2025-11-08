@@ -1,0 +1,65 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+
+config_version=5
+
+[application]
+
+config/name="Crownborn: Shattered Lineage"
+run/main_scene="res://scenes/main.tscn"
+config/features=PackedStringArray("4.2", "Mobile")
+config/icon="res://icon.svg"
+
+[display]
+
+window/size/viewport_width=1080
+window/size/viewport_height=1920
+window/size/mode=2
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+window/handheld/orientation=1
+
+[input]
+
+move_forward={
+"deadzone": 0.5,
+"events": []
+}
+move_back={
+"deadzone": 0.5,
+"events": []
+}
+move_left={
+"deadzone": 0.5,
+"events": []
+}
+move_right={
+"deadzone": 0.5,
+"events": []
+}
+attack={
+"deadzone": 0.5,
+"events": []
+}
+special={
+"deadzone": 0.5,
+"events": []
+}
+dodge={
+"deadzone": 0.5,
+"events": []
+}
+rub_ring={
+"deadzone": 0.5,
+"events": []
+}
+
+[physics]
+
+common/enable_pause_aware_picking=true
+
+[rendering]
+
+renderer/rendering_method="mobile"
+textures/vram_compression/import_etc2_astc=true
