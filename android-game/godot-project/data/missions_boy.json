@@ -1,0 +1,4707 @@
+{
+  "formatVersion": "1.0",
+  "title": "Throne of Ashes",
+  "exportedAt": "2025-11-08T18:24:07Z",
+  "missions": [
+    {
+      "id": 1,
+      "variant": "boy",
+      "location": "Ashenport Docks",
+      "relative": {
+        "name": "Aunt Leena",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": "Shaman appears; mission brief begins."
+      },
+      "enemies": [
+        "Ash Scorpions",
+        "Siege Grenadier"
+      ],
+      "boss": {
+        "name": "General Krath",
+        "weakness": "Vulnerable during thunder; stun on lightning pylons"
+      },
+      "mission": {
+        "hook": "Rescue Aunt Leena from Ashenport Docks. They hold intel for next location.",
+        "mapFeatures": "Vent tunnels",
+        "stealthTip": "Cut lanterns to deepen shadows."
+      },
+      "rewards": {
+        "powerUnlocked": "Blink Step (short-range teleport)"
+      },
+      "guidance": {
+        "shamanWisdom": "Power without purpose is a candle in storm—shield your flame."
+      }
+    },
+    {
+      "id": 2,
+      "variant": "boy",
+      "location": "Obsidian Bazaar",
+      "relative": {
+        "name": "Sister Mira",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": "Family secret revealed: player is heir to the lost throne."
+      },
+      "enemies": [
+        "Blight Boars",
+        "Hex Warlock"
+      ],
+      "boss": {
+        "name": "Matron Vess",
+        "weakness": "Mirror shields reflect her beam; strike from behind"
+      },
+      "mission": {
+        "hook": "Rescue Sister Mira from Obsidian Bazaar. They hold intel for next location.",
+        "mapFeatures": "Hidden cistern",
+        "stealthTip": "Whistle near bells to misdirect patrols."
+      },
+      "rewards": {
+        "powerUnlocked": "Whirlwind Nova (360° knockback)"
+      },
+      "guidance": {
+        "shamanWisdom": "When wolves circle, become the wind, not the tree."
+      }
+    },
+    {
+      "id": 3,
+      "variant": "boy",
+      "location": "Sapphire Cliffs",
+      "relative": {
+        "name": "Uncle Joran",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Tide Serpents",
+        "Siege Grenadier",
+        "Blight Captain"
+      ],
+      "boss": {
+        "name": "Dreadsmith Orun",
+        "weakness": "Armor overheats near forges; use water barrels"
+      },
+      "mission": {
+        "hook": "Rescue Uncle Joran from Sapphire Cliffs. They hold intel for next location.",
+        "mapFeatures": "Rooftop ziplines",
+        "stealthTip": "Drop jars to lure wardens away."
+      },
+      "rewards": {
+        "powerUnlocked": "Shadow Veil (10s invisibility)"
+      },
+      "guidance": {
+        "shamanWisdom": "Every fortress has a forgotten vein; feel for its pulse."
+      }
+    },
+    {
+      "id": 4,
+      "variant": "boy",
+      "location": "Ember Hollow",
+      "relative": {
+        "name": "Niece Pina",
+        "category": "children"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Razor Eagles",
+        "Bollock Raider"
+      ],
+      "boss": {
+        "name": "High Warlock Zev",
+        "weakness": "Interrupt chant with sonic arrows"
+      },
+      "mission": {
+        "hook": "Rescue Niece Pina from Ember Hollow. They hold intel for next location.",
+        "mapFeatures": "Sewer ladder",
+        "stealthTip": "Swim the culvert; bypass main gate."
+      },
+      "rewards": {
+        "powerUnlocked": "Aerial Glide (long jump/fall control)"
+      },
+      "guidance": {
+        "shamanWisdom": "Listen for lies in the quiet between war drums."
+      }
+    },
+    {
+      "id": 5,
+      "variant": "boy",
+      "location": "Verdant Sprawl",
+      "relative": {
+        "name": "Brother Kael",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Frost Lynxes",
+        "Rift Scout"
+      ],
+      "boss": {
+        "name": "Giant Golem Rauk",
+        "weakness": "Cracks when frozen then shattered"
+      },
+      "mission": {
+        "hook": "Rescue Brother Kael from Verdant Sprawl. They hold intel for next location.",
+        "mapFeatures": "Collapsed tramway",
+        "stealthTip": "Mask steps with thunderclaps."
+      },
+      "rewards": {
+        "powerUnlocked": "Hawkeye Burst (multi-target auto-bow volley)"
+      },
+      "guidance": {
+        "shamanWisdom": "Mercy is a blade—wield it or sheath it with intent."
+      }
+    },
+    {
+      "id": 6,
+      "variant": "boy",
+      "location": "Gale Citadel",
+      "relative": {
+        "name": "Cousin Aria",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Feral Wolfpack",
+        "Shock Lancer",
+        "Blight Captain"
+      ],
+      "boss": {
+        "name": "Corsair Queen Nyra",
+        "weakness": "Harpoons jam the ship engine; board aft"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Aria from Gale Citadel. They hold intel for next location.",
+        "mapFeatures": "Crate labyrinth",
+        "stealthTip": "Shadow Archers can be pickpocketed for keys."
+      },
+      "rewards": {
+        "powerUnlocked": "Stoneguard (temporary invulnerability)"
+      },
+      "guidance": {
+        "shamanWisdom": "The sky carries you if you leap with wisdom."
+      }
+    },
+    {
+      "id": 7,
+      "variant": "boy",
+      "location": "Moonveil Ruins",
+      "relative": {
+        "name": "Nephew Iko",
+        "category": "children"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Ash Scorpions",
+        "Shadow Archer"
+      ],
+      "boss": {
+        "name": "Bonebreaker Hul",
+        "weakness": "Only staggers after parry-perfect 3 times"
+      },
+      "mission": {
+        "hook": "Rescue Nephew Iko from Moonveil Ruins. They hold intel for next location.",
+        "mapFeatures": "Sub-basement vault",
+        "stealthTip": "Ride supply carts through gatehouse."
+      },
+      "rewards": {
+        "powerUnlocked": "Spectral Decoy (lures enemies)"
+      },
+      "guidance": {
+        "shamanWisdom": "Your blood remembers thrones; let your heart remember people."
+      }
+    },
+    {
+      "id": 8,
+      "variant": "boy",
+      "location": "Crimson Steppe",
+      "relative": {
+        "name": "Cousin Nyla",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Feral Wolfpack",
+        "Shadow Archer"
+      ],
+      "boss": {
+        "name": "Warden Keth",
+        "weakness": "Keys hidden on hawks; shoot them down"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Nyla from Crimson Steppe. They hold intel for next location.",
+        "mapFeatures": "Crack-in-wall passage",
+        "stealthTip": "Sabotage alarm drums before entry."
+      },
+      "rewards": {
+        "powerUnlocked": "Thunderbrand (charged sword cleave)"
+      },
+      "guidance": {
+        "shamanWisdom": "A map shows walls; breath finds doors."
+      }
+    },
+    {
+      "id": 9,
+      "variant": "boy",
+      "location": "Ironroot Mines",
+      "relative": {
+        "name": "Aunt Rhea",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Blight Boars",
+        "Shock Lancer",
+        "Crimson Pyromancer"
+      ],
+      "boss": {
+        "name": "Storm Titan Oxx",
+        "weakness": "Grounded by conductive chains"
+      },
+      "mission": {
+        "hook": "Rescue Aunt Rhea from Ironroot Mines. They hold intel for next location.",
+        "mapFeatures": "Cistern sluice",
+        "stealthTip": "Poison stew pots to thin numbers."
+      },
+      "rewards": {
+        "powerUnlocked": "Ember Dash (flame dash, ignites oil)"
+      },
+      "guidance": {
+        "shamanWisdom": "Count the steps of your fear, then step once more."
+      }
+    },
+    {
+      "id": 10,
+      "variant": "boy",
+      "location": "Stormglass Keep",
+      "relative": {
+        "name": "Cousin Sera",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Blight Boars",
+        "Siege Grenadier"
+      ],
+      "boss": {
+        "name": "Beastmother Siva",
+        "weakness": "Distract cubs; strike when she turns"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Sera from Stormglass Keep. They hold intel for next location.",
+        "mapFeatures": "Ceiling rafters",
+        "stealthTip": "Scale ivy to the watchtower, avoid spotlight."
+      },
+      "rewards": {
+        "powerUnlocked": "Frostlock (freeze cone)"
+      },
+      "guidance": {
+        "shamanWisdom": "Even giants drown in inches of truth."
+      }
+    },
+    {
+      "id": 11,
+      "variant": "boy",
+      "location": "Dune Sea Outpost",
+      "relative": {
+        "name": "Sister Lyra",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Razor Eagles",
+        "Rift Scout"
+      ],
+      "boss": {
+        "name": "General Krath",
+        "weakness": "Vulnerable during thunder; stun on lightning pylons"
+      },
+      "mission": {
+        "hook": "Rescue Sister Lyra from Dune Sea Outpost. They hold intel for next location.",
+        "mapFeatures": "Chimney shaft",
+        "stealthTip": "Cut lanterns to deepen shadows."
+      },
+      "rewards": {
+        "powerUnlocked": "Chain Grapple (pull to ledges/enemies)"
+      },
+      "guidance": {
+        "shamanWisdom": "Power without purpose is a candle in storm—shield your flame."
+      }
+    },
+    {
+      "id": 12,
+      "variant": "boy",
+      "location": "Rivergate",
+      "relative": {
+        "name": "Cousin Daro",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Razor Eagles",
+        "Hex Warlock",
+        "Phantom Blade"
+      ],
+      "boss": {
+        "name": "Matron Vess",
+        "weakness": "Mirror shields reflect her beam; strike from behind"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Daro from Rivergate. They hold intel for next location.",
+        "mapFeatures": "Waterwheel duct",
+        "stealthTip": "Whistle near bells to misdirect patrols."
+      },
+      "rewards": {
+        "powerUnlocked": "Time Slip (slow time briefly)"
+      },
+      "guidance": {
+        "shamanWisdom": "When wolves circle, become the wind, not the tree."
+      }
+    },
+    {
+      "id": 13,
+      "variant": "boy",
+      "location": "Frostfang Tundra",
+      "relative": {
+        "name": "Aunt Talia",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Tide Serpents",
+        "Shadow Archer"
+      ],
+      "boss": {
+        "name": "Dreadsmith Orun",
+        "weakness": "Armor overheats near forges; use water barrels"
+      },
+      "mission": {
+        "hook": "Rescue Aunt Talia from Frostfang Tundra. They hold intel for next location.",
+        "mapFeatures": "Cave fissure",
+        "stealthTip": "Drop jars to lure wardens away."
+      },
+      "rewards": {
+        "powerUnlocked": "Viper Strike (stacking bleed)"
+      },
+      "guidance": {
+        "shamanWisdom": "Every fortress has a forgotten vein; feel for its pulse."
+      }
+    },
+    {
+      "id": 14,
+      "variant": "boy",
+      "location": "Sunspire Plateau",
+      "relative": {
+        "name": "Cousin Lumo",
+        "category": "children"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Ash Scorpions",
+        "Sand Rider"
+      ],
+      "boss": {
+        "name": "High Warlock Zev",
+        "weakness": "Interrupt chant with sonic arrows"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Lumo from Sunspire Plateau. They hold intel for next location.",
+        "mapFeatures": "Ivy climb",
+        "stealthTip": "Swim the culvert; bypass main gate."
+      },
+      "rewards": {
+        "powerUnlocked": "Sanctum Ward (revive once per stage if unused)"
+      },
+      "guidance": {
+        "shamanWisdom": "Listen for lies in the quiet between war drums."
+      }
+    },
+    {
+      "id": 15,
+      "variant": "boy",
+      "location": "Whispering Marsh",
+      "relative": {
+        "name": "Cousin Bram",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Frost Lynxes",
+        "Rift Scout",
+        "Crimson Pyromancer"
+      ],
+      "boss": {
+        "name": "Giant Golem Rauk",
+        "weakness": "Cracks when frozen then shattered"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Bram from Whispering Marsh. They hold intel for next location.",
+        "mapFeatures": "Barred postern gate",
+        "stealthTip": "Mask steps with thunderclaps."
+      },
+      "rewards": {
+        "powerUnlocked": "Sky Ascent (rapid vertical lift)"
+      },
+      "guidance": {
+        "shamanWisdom": "Mercy is a blade—wield it or sheath it with intent."
+      }
+    },
+    {
+      "id": 16,
+      "variant": "boy",
+      "location": "Nightorch Yard",
+      "relative": {
+        "name": "Cousin Vela",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Blight Boars",
+        "Shadow Archer"
+      ],
+      "boss": {
+        "name": "Corsair Queen Nyra",
+        "weakness": "Harpoons jam the ship engine; board aft"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Vela from Nightorch Yard. They hold intel for next location.",
+        "mapFeatures": "Vent tunnels",
+        "stealthTip": "Shadow Archers can be pickpocketed for keys."
+      },
+      "rewards": {
+        "powerUnlocked": "Blink Step (short-range teleport)"
+      },
+      "guidance": {
+        "shamanWisdom": "The sky carries you if you leap with wisdom."
+      }
+    },
+    {
+      "id": 17,
+      "variant": "boy",
+      "location": "Cobalt Narrows",
+      "relative": {
+        "name": "Cousin Rini",
+        "category": "children"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Tide Serpents",
+        "Shock Lancer"
+      ],
+      "boss": {
+        "name": "Bonebreaker Hul",
+        "weakness": "Only staggers after parry-perfect 3 times"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Rini from Cobalt Narrows. They hold intel for next location.",
+        "mapFeatures": "Hidden cistern",
+        "stealthTip": "Ride supply carts through gatehouse."
+      },
+      "rewards": {
+        "powerUnlocked": "Whirlwind Nova (360° knockback)"
+      },
+      "guidance": {
+        "shamanWisdom": "Your blood remembers thrones; let your heart remember people."
+      }
+    },
+    {
+      "id": 18,
+      "variant": "boy",
+      "location": "Thornmere",
+      "relative": {
+        "name": "Aunt Kira",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Frost Lynxes",
+        "Bollock Raider",
+        "Dread Corsair"
+      ],
+      "boss": {
+        "name": "Warden Keth",
+        "weakness": "Keys hidden on hawks; shoot them down"
+      },
+      "mission": {
+        "hook": "Rescue Aunt Kira from Thornmere. They hold intel for next location.",
+        "mapFeatures": "Rooftop ziplines",
+        "stealthTip": "Sabotage alarm drums before entry."
+      },
+      "rewards": {
+        "powerUnlocked": "Shadow Veil (10s invisibility)"
+      },
+      "guidance": {
+        "shamanWisdom": "A map shows walls; breath finds doors."
+      }
+    },
+    {
+      "id": 19,
+      "variant": "boy",
+      "location": "Aurora Crater",
+      "relative": {
+        "name": "Uncle Fen",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Tide Serpents",
+        "Bollock Raider"
+      ],
+      "boss": {
+        "name": "Storm Titan Oxx",
+        "weakness": "Grounded by conductive chains"
+      },
+      "mission": {
+        "hook": "Rescue Uncle Fen from Aurora Crater. They hold intel for next location.",
+        "mapFeatures": "Sewer ladder",
+        "stealthTip": "Poison stew pots to thin numbers."
+      },
+      "rewards": {
+        "powerUnlocked": "Aerial Glide (long jump/fall control)"
+      },
+      "guidance": {
+        "shamanWisdom": "Count the steps of your fear, then step once more."
+      }
+    },
+    {
+      "id": 20,
+      "variant": "boy",
+      "location": "Seabreak Fort",
+      "relative": {
+        "name": "Aunt Leena",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Blight Boars",
+        "Bollock Raider"
+      ],
+      "boss": {
+        "name": "Beastmother Siva",
+        "weakness": "Distract cubs; strike when she turns"
+      },
+      "mission": {
+        "hook": "Rescue Aunt Leena from Seabreak Fort. They hold intel for next location.",
+        "mapFeatures": "Collapsed tramway",
+        "stealthTip": "Scale ivy to the watchtower, avoid spotlight."
+      },
+      "rewards": {
+        "powerUnlocked": "Hawkeye Burst (multi-target auto-bow volley)"
+      },
+      "guidance": {
+        "shamanWisdom": "Even giants drown in inches of truth."
+      }
+    },
+    {
+      "id": 21,
+      "variant": "boy",
+      "location": "Shattered Causeway",
+      "relative": {
+        "name": "Cousin Tor",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Tide Serpents",
+        "Shock Lancer",
+        "Obsidian Knight"
+      ],
+      "boss": {
+        "name": "General Krath",
+        "weakness": "Vulnerable during thunder; stun on lightning pylons"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Tor from Shattered Causeway. They hold intel for next location.",
+        "mapFeatures": "Crate labyrinth",
+        "stealthTip": "Cut lanterns to deepen shadows."
+      },
+      "rewards": {
+        "powerUnlocked": "Stoneguard (temporary invulnerability)"
+      },
+      "guidance": {
+        "shamanWisdom": "Power without purpose is a candle in storm—shield your flame."
+      }
+    },
+    {
+      "id": 22,
+      "variant": "boy",
+      "location": "Hushwind Grove",
+      "relative": {
+        "name": "Niece Sumi",
+        "category": "children"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Frost Lynxes",
+        "Shock Lancer"
+      ],
+      "boss": {
+        "name": "Matron Vess",
+        "weakness": "Mirror shields reflect her beam; strike from behind"
+      },
+      "mission": {
+        "hook": "Rescue Niece Sumi from Hushwind Grove. They hold intel for next location.",
+        "mapFeatures": "Sub-basement vault",
+        "stealthTip": "Whistle near bells to misdirect patrols."
+      },
+      "rewards": {
+        "powerUnlocked": "Spectral Decoy (lures enemies)"
+      },
+      "guidance": {
+        "shamanWisdom": "When wolves circle, become the wind, not the tree."
+      }
+    },
+    {
+      "id": 23,
+      "variant": "boy",
+      "location": "Cobalt Reef",
+      "relative": {
+        "name": "Brother Iven",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Tide Serpents",
+        "Hex Warlock"
+      ],
+      "boss": {
+        "name": "Dreadsmith Orun",
+        "weakness": "Armor overheats near forges; use water barrels"
+      },
+      "mission": {
+        "hook": "Rescue Brother Iven from Cobalt Reef. They hold intel for next location.",
+        "mapFeatures": "Crack-in-wall passage",
+        "stealthTip": "Drop jars to lure wardens away."
+      },
+      "rewards": {
+        "powerUnlocked": "Thunderbrand (charged sword cleave)"
+      },
+      "guidance": {
+        "shamanWisdom": "Every fortress has a forgotten vein; feel for its pulse."
+      }
+    },
+    {
+      "id": 24,
+      "variant": "boy",
+      "location": "Ivory Bastion",
+      "relative": {
+        "name": "Nephew Tajo",
+        "category": "children"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Swarm Spiders",
+        "Shadow Archer",
+        "Bone Shaman"
+      ],
+      "boss": {
+        "name": "High Warlock Zev",
+        "weakness": "Interrupt chant with sonic arrows"
+      },
+      "mission": {
+        "hook": "Rescue Nephew Tajo from Ivory Bastion. They hold intel for next location.",
+        "mapFeatures": "Cistern sluice",
+        "stealthTip": "Swim the culvert; bypass main gate."
+      },
+      "rewards": {
+        "powerUnlocked": "Ember Dash (flame dash, ignites oil)"
+      },
+      "guidance": {
+        "shamanWisdom": "Listen for lies in the quiet between war drums."
+      }
+    },
+    {
+      "id": 25,
+      "variant": "boy",
+      "location": "Hearthfall Town",
+      "relative": {
+        "name": "Cousin Miri",
+        "category": "children"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Swarm Spiders",
+        "Shadow Archer"
+      ],
+      "boss": {
+        "name": "Giant Golem Rauk",
+        "weakness": "Cracks when frozen then shattered"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Miri from Hearthfall Town. They hold intel for next location.",
+        "mapFeatures": "Ceiling rafters",
+        "stealthTip": "Mask steps with thunderclaps."
+      },
+      "rewards": {
+        "powerUnlocked": "Frostlock (freeze cone)"
+      },
+      "guidance": {
+        "shamanWisdom": "Mercy is a blade—wield it or sheath it with intent."
+      }
+    },
+    {
+      "id": 26,
+      "variant": "boy",
+      "location": "Starfall Observatory",
+      "relative": {
+        "name": "Cousin Poro",
+        "category": "children"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Swarm Spiders",
+        "Sand Rider"
+      ],
+      "boss": {
+        "name": "Corsair Queen Nyra",
+        "weakness": "Harpoons jam the ship engine; board aft"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Poro from Starfall Observatory. They hold intel for next location.",
+        "mapFeatures": "Chimney shaft",
+        "stealthTip": "Shadow Archers can be pickpocketed for keys."
+      },
+      "rewards": {
+        "powerUnlocked": "Chain Grapple (pull to ledges/enemies)"
+      },
+      "guidance": {
+        "shamanWisdom": "The sky carries you if you leap with wisdom."
+      }
+    },
+    {
+      "id": 27,
+      "variant": "boy",
+      "location": "Ravenwall",
+      "relative": {
+        "name": "Sister Mira",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Tide Serpents",
+        "Shock Lancer",
+        "Stormcaller"
+      ],
+      "boss": {
+        "name": "Bonebreaker Hul",
+        "weakness": "Only staggers after parry-perfect 3 times"
+      },
+      "mission": {
+        "hook": "Rescue Sister Mira from Ravenwall. They hold intel for next location.",
+        "mapFeatures": "Waterwheel duct",
+        "stealthTip": "Ride supply carts through gatehouse."
+      },
+      "rewards": {
+        "powerUnlocked": "Time Slip (slow time briefly)"
+      },
+      "guidance": {
+        "shamanWisdom": "Your blood remembers thrones; let your heart remember people."
+      }
+    },
+    {
+      "id": 28,
+      "variant": "boy",
+      "location": "Hollow Reef",
+      "relative": {
+        "name": "Cousin Aria",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Grim Bears",
+        "Iron Mauler"
+      ],
+      "boss": {
+        "name": "Warden Keth",
+        "weakness": "Keys hidden on hawks; shoot them down"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Aria from Hollow Reef. They hold intel for next location.",
+        "mapFeatures": "Cave fissure",
+        "stealthTip": "Sabotage alarm drums before entry."
+      },
+      "rewards": {
+        "powerUnlocked": "Viper Strike (stacking bleed)"
+      },
+      "guidance": {
+        "shamanWisdom": "A map shows walls; breath finds doors."
+      }
+    },
+    {
+      "id": 29,
+      "variant": "boy",
+      "location": "Quartz Bazaar",
+      "relative": {
+        "name": "Niece Yani",
+        "category": "children"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Grim Bears",
+        "Sand Rider"
+      ],
+      "boss": {
+        "name": "Storm Titan Oxx",
+        "weakness": "Grounded by conductive chains"
+      },
+      "mission": {
+        "hook": "Rescue Niece Yani from Quartz Bazaar. They hold intel for next location.",
+        "mapFeatures": "Ivy climb",
+        "stealthTip": "Poison stew pots to thin numbers."
+      },
+      "rewards": {
+        "powerUnlocked": "Sanctum Ward (revive once per stage if unused)"
+      },
+      "guidance": {
+        "shamanWisdom": "Count the steps of your fear, then step once more."
+      }
+    },
+    {
+      "id": 30,
+      "variant": "boy",
+      "location": "Gloombridge",
+      "relative": {
+        "name": "Uncle Rold",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Swarm Spiders",
+        "Bollock Raider",
+        "Stormcaller"
+      ],
+      "boss": {
+        "name": "Beastmother Siva",
+        "weakness": "Distract cubs; strike when she turns"
+      },
+      "mission": {
+        "hook": "Rescue Uncle Rold from Gloombridge. They hold intel for next location.",
+        "mapFeatures": "Barred postern gate",
+        "stealthTip": "Scale ivy to the watchtower, avoid spotlight."
+      },
+      "rewards": {
+        "powerUnlocked": "Sky Ascent (rapid vertical lift)"
+      },
+      "guidance": {
+        "shamanWisdom": "Even giants drown in inches of truth."
+      }
+    },
+    {
+      "id": 31,
+      "variant": "boy",
+      "location": "Skyforge Pinnacle",
+      "relative": {
+        "name": "Cousin Nyla",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Feral Wolfpack",
+        "Sand Rider"
+      ],
+      "boss": {
+        "name": "General Krath",
+        "weakness": "Vulnerable during thunder; stun on lightning pylons"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Nyla from Skyforge Pinnacle. They hold intel for next location.",
+        "mapFeatures": "Vent tunnels",
+        "stealthTip": "Cut lanterns to deepen shadows."
+      },
+      "rewards": {
+        "powerUnlocked": "Blink Step (short-range teleport)"
+      },
+      "guidance": {
+        "shamanWisdom": "Power without purpose is a candle in storm—shield your flame."
+      }
+    },
+    {
+      "id": 32,
+      "variant": "boy",
+      "location": "Mirage Dunes",
+      "relative": {
+        "name": "Aunt Rhea",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Frost Lynxes",
+        "Shock Lancer"
+      ],
+      "boss": {
+        "name": "Matron Vess",
+        "weakness": "Mirror shields reflect her beam; strike from behind"
+      },
+      "mission": {
+        "hook": "Rescue Aunt Rhea from Mirage Dunes. They hold intel for next location.",
+        "mapFeatures": "Hidden cistern",
+        "stealthTip": "Whistle near bells to misdirect patrols."
+      },
+      "rewards": {
+        "powerUnlocked": "Whirlwind Nova (360° knockback)"
+      },
+      "guidance": {
+        "shamanWisdom": "When wolves circle, become the wind, not the tree."
+      }
+    },
+    {
+      "id": 33,
+      "variant": "boy",
+      "location": "Mirewatch",
+      "relative": {
+        "name": "Cousin Sera",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Tide Serpents",
+        "Shadow Archer",
+        "Dread Corsair"
+      ],
+      "boss": {
+        "name": "Dreadsmith Orun",
+        "weakness": "Armor overheats near forges; use water barrels"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Sera from Mirewatch. They hold intel for next location.",
+        "mapFeatures": "Rooftop ziplines",
+        "stealthTip": "Drop jars to lure wardens away."
+      },
+      "rewards": {
+        "powerUnlocked": "Shadow Veil (10s invisibility)"
+      },
+      "guidance": {
+        "shamanWisdom": "Every fortress has a forgotten vein; feel for its pulse."
+      }
+    },
+    {
+      "id": 34,
+      "variant": "boy",
+      "location": "Copperhold",
+      "relative": {
+        "name": "Nephew Zed",
+        "category": "children"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Swarm Spiders",
+        "Siege Grenadier"
+      ],
+      "boss": {
+        "name": "High Warlock Zev",
+        "weakness": "Interrupt chant with sonic arrows"
+      },
+      "mission": {
+        "hook": "Rescue Nephew Zed from Copperhold. They hold intel for next location.",
+        "mapFeatures": "Sewer ladder",
+        "stealthTip": "Swim the culvert; bypass main gate."
+      },
+      "rewards": {
+        "powerUnlocked": "Aerial Glide (long jump/fall control)"
+      },
+      "guidance": {
+        "shamanWisdom": "Listen for lies in the quiet between war drums."
+      }
+    },
+    {
+      "id": 35,
+      "variant": "boy",
+      "location": "Driftwood Quay",
+      "relative": {
+        "name": "Niece Pina",
+        "category": "children"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Grim Bears",
+        "Siege Grenadier"
+      ],
+      "boss": {
+        "name": "Giant Golem Rauk",
+        "weakness": "Cracks when frozen then shattered"
+      },
+      "mission": {
+        "hook": "Rescue Niece Pina from Driftwood Quay. They hold intel for next location.",
+        "mapFeatures": "Collapsed tramway",
+        "stealthTip": "Mask steps with thunderclaps."
+      },
+      "rewards": {
+        "powerUnlocked": "Hawkeye Burst (multi-target auto-bow volley)"
+      },
+      "guidance": {
+        "shamanWisdom": "Mercy is a blade—wield it or sheath it with intent."
+      }
+    },
+    {
+      "id": 36,
+      "variant": "boy",
+      "location": "Flintgate",
+      "relative": {
+        "name": "Cousin Niko",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Ash Scorpions",
+        "Rift Scout",
+        "Dread Corsair"
+      ],
+      "boss": {
+        "name": "Corsair Queen Nyra",
+        "weakness": "Harpoons jam the ship engine; board aft"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Niko from Flintgate. They hold intel for next location.",
+        "mapFeatures": "Crate labyrinth",
+        "stealthTip": "Shadow Archers can be pickpocketed for keys."
+      },
+      "rewards": {
+        "powerUnlocked": "Stoneguard (temporary invulnerability)"
+      },
+      "guidance": {
+        "shamanWisdom": "The sky carries you if you leap with wisdom."
+      }
+    },
+    {
+      "id": 37,
+      "variant": "boy",
+      "location": "Glowfen",
+      "relative": {
+        "name": "Uncle Garr",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Blight Boars",
+        "Rift Scout"
+      ],
+      "boss": {
+        "name": "Bonebreaker Hul",
+        "weakness": "Only staggers after parry-perfect 3 times"
+      },
+      "mission": {
+        "hook": "Rescue Uncle Garr from Glowfen. They hold intel for next location.",
+        "mapFeatures": "Sub-basement vault",
+        "stealthTip": "Ride supply carts through gatehouse."
+      },
+      "rewards": {
+        "powerUnlocked": "Spectral Decoy (lures enemies)"
+      },
+      "guidance": {
+        "shamanWisdom": "Your blood remembers thrones; let your heart remember people."
+      }
+    },
+    {
+      "id": 38,
+      "variant": "boy",
+      "location": "Phantom Quarries",
+      "relative": {
+        "name": "Uncle Joran",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Blight Boars",
+        "Bollock Raider"
+      ],
+      "boss": {
+        "name": "Warden Keth",
+        "weakness": "Keys hidden on hawks; shoot them down"
+      },
+      "mission": {
+        "hook": "Rescue Uncle Joran from Phantom Quarries. They hold intel for next location.",
+        "mapFeatures": "Crack-in-wall passage",
+        "stealthTip": "Sabotage alarm drums before entry."
+      },
+      "rewards": {
+        "powerUnlocked": "Thunderbrand (charged sword cleave)"
+      },
+      "guidance": {
+        "shamanWisdom": "A map shows walls; breath finds doors."
+      }
+    },
+    {
+      "id": 39,
+      "variant": "boy",
+      "location": "Stormveil Arches",
+      "relative": {
+        "name": "Brother Kael",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Feral Wolfpack",
+        "Shock Lancer",
+        "Dread Corsair"
+      ],
+      "boss": {
+        "name": "Storm Titan Oxx",
+        "weakness": "Grounded by conductive chains"
+      },
+      "mission": {
+        "hook": "Rescue Brother Kael from Stormveil Arches. They hold intel for next location.",
+        "mapFeatures": "Cistern sluice",
+        "stealthTip": "Poison stew pots to thin numbers."
+      },
+      "rewards": {
+        "powerUnlocked": "Ember Dash (flame dash, ignites oil)"
+      },
+      "guidance": {
+        "shamanWisdom": "Count the steps of your fear, then step once more."
+      }
+    },
+    {
+      "id": 40,
+      "variant": "boy",
+      "location": "Flarecoast",
+      "relative": {
+        "name": "Sister Lyra",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Razor Eagles",
+        "Sand Rider"
+      ],
+      "boss": {
+        "name": "Beastmother Siva",
+        "weakness": "Distract cubs; strike when she turns"
+      },
+      "mission": {
+        "hook": "Rescue Sister Lyra from Flarecoast. They hold intel for next location.",
+        "mapFeatures": "Ceiling rafters",
+        "stealthTip": "Scale ivy to the watchtower, avoid spotlight."
+      },
+      "rewards": {
+        "powerUnlocked": "Frostlock (freeze cone)"
+      },
+      "guidance": {
+        "shamanWisdom": "Even giants drown in inches of truth."
+      }
+    },
+    {
+      "id": 41,
+      "variant": "boy",
+      "location": "Oracle Steps",
+      "relative": {
+        "name": "Cousin Daro",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Swarm Spiders",
+        "Rift Scout"
+      ],
+      "boss": {
+        "name": "General Krath",
+        "weakness": "Vulnerable during thunder; stun on lightning pylons"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Daro from Oracle Steps. They hold intel for next location.",
+        "mapFeatures": "Chimney shaft",
+        "stealthTip": "Cut lanterns to deepen shadows."
+      },
+      "rewards": {
+        "powerUnlocked": "Chain Grapple (pull to ledges/enemies)"
+      },
+      "guidance": {
+        "shamanWisdom": "Power without purpose is a candle in storm—shield your flame."
+      }
+    },
+    {
+      "id": 42,
+      "variant": "boy",
+      "location": "Boulderrest",
+      "relative": {
+        "name": "Cousin Bram",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Tide Serpents",
+        "Sand Rider",
+        "Obsidian Knight"
+      ],
+      "boss": {
+        "name": "Matron Vess",
+        "weakness": "Mirror shields reflect her beam; strike from behind"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Bram from Boulderrest. They hold intel for next location.",
+        "mapFeatures": "Waterwheel duct",
+        "stealthTip": "Whistle near bells to misdirect patrols."
+      },
+      "rewards": {
+        "powerUnlocked": "Time Slip (slow time briefly)"
+      },
+      "guidance": {
+        "shamanWisdom": "When wolves circle, become the wind, not the tree."
+      }
+    },
+    {
+      "id": 43,
+      "variant": "boy",
+      "location": "Saltspire",
+      "relative": {
+        "name": "Uncle Fen",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Razor Eagles",
+        "Sand Rider"
+      ],
+      "boss": {
+        "name": "Dreadsmith Orun",
+        "weakness": "Armor overheats near forges; use water barrels"
+      },
+      "mission": {
+        "hook": "Rescue Uncle Fen from Saltspire. They hold intel for next location.",
+        "mapFeatures": "Cave fissure",
+        "stealthTip": "Drop jars to lure wardens away."
+      },
+      "rewards": {
+        "powerUnlocked": "Viper Strike (stacking bleed)"
+      },
+      "guidance": {
+        "shamanWisdom": "Every fortress has a forgotten vein; feel for its pulse."
+      }
+    },
+    {
+      "id": 44,
+      "variant": "boy",
+      "location": "Wolfpine",
+      "relative": {
+        "name": "Aunt Talia",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Feral Wolfpack",
+        "Sand Rider"
+      ],
+      "boss": {
+        "name": "High Warlock Zev",
+        "weakness": "Interrupt chant with sonic arrows"
+      },
+      "mission": {
+        "hook": "Rescue Aunt Talia from Wolfpine. They hold intel for next location.",
+        "mapFeatures": "Ivy climb",
+        "stealthTip": "Swim the culvert; bypass main gate."
+      },
+      "rewards": {
+        "powerUnlocked": "Sanctum Ward (revive once per stage if unused)"
+      },
+      "guidance": {
+        "shamanWisdom": "Listen for lies in the quiet between war drums."
+      }
+    },
+    {
+      "id": 45,
+      "variant": "boy",
+      "location": "Glacier Rim",
+      "relative": {
+        "name": "Cousin Tor",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Ash Scorpions",
+        "Rift Scout",
+        "Golem Wrangler"
+      ],
+      "boss": {
+        "name": "Giant Golem Rauk",
+        "weakness": "Cracks when frozen then shattered"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Tor from Glacier Rim. They hold intel for next location.",
+        "mapFeatures": "Barred postern gate",
+        "stealthTip": "Mask steps with thunderclaps."
+      },
+      "rewards": {
+        "powerUnlocked": "Sky Ascent (rapid vertical lift)"
+      },
+      "guidance": {
+        "shamanWisdom": "Mercy is a blade—wield it or sheath it with intent."
+      }
+    },
+    {
+      "id": 46,
+      "variant": "boy",
+      "location": "Echodrift",
+      "relative": {
+        "name": "Brother Iven",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Grim Bears",
+        "Rift Scout"
+      ],
+      "boss": {
+        "name": "Corsair Queen Nyra",
+        "weakness": "Harpoons jam the ship engine; board aft"
+      },
+      "mission": {
+        "hook": "Rescue Brother Iven from Echodrift. They hold intel for next location.",
+        "mapFeatures": "Vent tunnels",
+        "stealthTip": "Shadow Archers can be pickpocketed for keys."
+      },
+      "rewards": {
+        "powerUnlocked": "Blink Step (short-range teleport)"
+      },
+      "guidance": {
+        "shamanWisdom": "The sky carries you if you leap with wisdom."
+      }
+    },
+    {
+      "id": 47,
+      "variant": "boy",
+      "location": "Brimstone Pits",
+      "relative": {
+        "name": "Cousin Vela",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Razor Eagles",
+        "Shadow Archer"
+      ],
+      "boss": {
+        "name": "Bonebreaker Hul",
+        "weakness": "Only staggers after parry-perfect 3 times"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Vela from Brimstone Pits. They hold intel for next location.",
+        "mapFeatures": "Hidden cistern",
+        "stealthTip": "Ride supply carts through gatehouse."
+      },
+      "rewards": {
+        "powerUnlocked": "Whirlwind Nova (360° knockback)"
+      },
+      "guidance": {
+        "shamanWisdom": "Your blood remembers thrones; let your heart remember people."
+      }
+    },
+    {
+      "id": 48,
+      "variant": "boy",
+      "location": "Larkspur Heights",
+      "relative": {
+        "name": "Nephew Iko",
+        "category": "children"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Ash Scorpions",
+        "Shadow Archer",
+        "Obsidian Knight"
+      ],
+      "boss": {
+        "name": "Warden Keth",
+        "weakness": "Keys hidden on hawks; shoot them down"
+      },
+      "mission": {
+        "hook": "Rescue Nephew Iko from Larkspur Heights. They hold intel for next location.",
+        "mapFeatures": "Rooftop ziplines",
+        "stealthTip": "Sabotage alarm drums before entry."
+      },
+      "rewards": {
+        "powerUnlocked": "Shadow Veil (10s invisibility)"
+      },
+      "guidance": {
+        "shamanWisdom": "A map shows walls; breath finds doors."
+      }
+    },
+    {
+      "id": 49,
+      "variant": "boy",
+      "location": "Brazen Yard",
+      "relative": {
+        "name": "Uncle Rold",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Feral Wolfpack",
+        "Iron Mauler"
+      ],
+      "boss": {
+        "name": "Storm Titan Oxx",
+        "weakness": "Grounded by conductive chains"
+      },
+      "mission": {
+        "hook": "Rescue Uncle Rold from Brazen Yard. They hold intel for next location.",
+        "mapFeatures": "Sewer ladder",
+        "stealthTip": "Poison stew pots to thin numbers."
+      },
+      "rewards": {
+        "powerUnlocked": "Aerial Glide (long jump/fall control)"
+      },
+      "guidance": {
+        "shamanWisdom": "Count the steps of your fear, then step once more."
+      }
+    },
+    {
+      "id": 50,
+      "variant": "boy",
+      "location": "Mistwatch",
+      "relative": {
+        "name": "Aunt Kira",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": "Arc milestone at Stage 50: hidden sigil fragment recovered."
+      },
+      "enemies": [
+        "Feral Wolfpack",
+        "Bollock Raider"
+      ],
+      "boss": {
+        "name": "Beastmother Siva",
+        "weakness": "Distract cubs; strike when she turns"
+      },
+      "mission": {
+        "hook": "Rescue Aunt Kira from Mistwatch. They hold intel for next location.",
+        "mapFeatures": "Collapsed tramway",
+        "stealthTip": "Scale ivy to the watchtower, avoid spotlight."
+      },
+      "rewards": {
+        "powerUnlocked": "Hawkeye Burst (multi-target auto-bow volley)"
+      },
+      "guidance": {
+        "shamanWisdom": "Even giants drown in inches of truth."
+      }
+    },
+    {
+      "id": 51,
+      "variant": "boy",
+      "location": "Ashenport Docks",
+      "relative": {
+        "name": "Cousin Lumo",
+        "category": "children"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Swarm Spiders",
+        "Siege Grenadier",
+        "Obsidian Knight"
+      ],
+      "boss": {
+        "name": "General Krath",
+        "weakness": "Vulnerable during thunder; stun on lightning pylons"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Lumo from Ashenport Docks. They hold intel for next location.",
+        "mapFeatures": "Crate labyrinth",
+        "stealthTip": "Cut lanterns to deepen shadows."
+      },
+      "rewards": {
+        "powerUnlocked": "Stoneguard (temporary invulnerability)"
+      },
+      "guidance": {
+        "shamanWisdom": "Power without purpose is a candle in storm—shield your flame."
+      }
+    },
+    {
+      "id": 52,
+      "variant": "boy",
+      "location": "Obsidian Bazaar",
+      "relative": {
+        "name": "Cousin Niko",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Blight Boars",
+        "Siege Grenadier"
+      ],
+      "boss": {
+        "name": "Matron Vess",
+        "weakness": "Mirror shields reflect her beam; strike from behind"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Niko from Obsidian Bazaar. They hold intel for next location.",
+        "mapFeatures": "Sub-basement vault",
+        "stealthTip": "Whistle near bells to misdirect patrols."
+      },
+      "rewards": {
+        "powerUnlocked": "Spectral Decoy (lures enemies)"
+      },
+      "guidance": {
+        "shamanWisdom": "When wolves circle, become the wind, not the tree."
+      }
+    },
+    {
+      "id": 53,
+      "variant": "boy",
+      "location": "Sapphire Cliffs",
+      "relative": {
+        "name": "Uncle Garr",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Blight Boars",
+        "Shock Lancer"
+      ],
+      "boss": {
+        "name": "Dreadsmith Orun",
+        "weakness": "Armor overheats near forges; use water barrels"
+      },
+      "mission": {
+        "hook": "Rescue Uncle Garr from Sapphire Cliffs. They hold intel for next location.",
+        "mapFeatures": "Crack-in-wall passage",
+        "stealthTip": "Drop jars to lure wardens away."
+      },
+      "rewards": {
+        "powerUnlocked": "Thunderbrand (charged sword cleave)"
+      },
+      "guidance": {
+        "shamanWisdom": "Every fortress has a forgotten vein; feel for its pulse."
+      }
+    },
+    {
+      "id": 54,
+      "variant": "boy",
+      "location": "Ember Hollow",
+      "relative": {
+        "name": "Aunt Leena",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Tide Serpents",
+        "Sand Rider",
+        "Stormcaller"
+      ],
+      "boss": {
+        "name": "High Warlock Zev",
+        "weakness": "Interrupt chant with sonic arrows"
+      },
+      "mission": {
+        "hook": "Rescue Aunt Leena from Ember Hollow. They hold intel for next location.",
+        "mapFeatures": "Cistern sluice",
+        "stealthTip": "Swim the culvert; bypass main gate."
+      },
+      "rewards": {
+        "powerUnlocked": "Ember Dash (flame dash, ignites oil)"
+      },
+      "guidance": {
+        "shamanWisdom": "Listen for lies in the quiet between war drums."
+      }
+    },
+    {
+      "id": 55,
+      "variant": "boy",
+      "location": "Verdant Sprawl",
+      "relative": {
+        "name": "Uncle Joran",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Tide Serpents",
+        "Bollock Raider"
+      ],
+      "boss": {
+        "name": "Giant Golem Rauk",
+        "weakness": "Cracks when frozen then shattered"
+      },
+      "mission": {
+        "hook": "Rescue Uncle Joran from Verdant Sprawl. They hold intel for next location.",
+        "mapFeatures": "Ceiling rafters",
+        "stealthTip": "Mask steps with thunderclaps."
+      },
+      "rewards": {
+        "powerUnlocked": "Frostlock (freeze cone)"
+      },
+      "guidance": {
+        "shamanWisdom": "Mercy is a blade—wield it or sheath it with intent."
+      }
+    },
+    {
+      "id": 56,
+      "variant": "boy",
+      "location": "Gale Citadel",
+      "relative": {
+        "name": "Sister Mira",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Blight Boars",
+        "Sand Rider"
+      ],
+      "boss": {
+        "name": "Corsair Queen Nyra",
+        "weakness": "Harpoons jam the ship engine; board aft"
+      },
+      "mission": {
+        "hook": "Rescue Sister Mira from Gale Citadel. They hold intel for next location.",
+        "mapFeatures": "Chimney shaft",
+        "stealthTip": "Shadow Archers can be pickpocketed for keys."
+      },
+      "rewards": {
+        "powerUnlocked": "Chain Grapple (pull to ledges/enemies)"
+      },
+      "guidance": {
+        "shamanWisdom": "The sky carries you if you leap with wisdom."
+      }
+    },
+    {
+      "id": 57,
+      "variant": "boy",
+      "location": "Moonveil Ruins",
+      "relative": {
+        "name": "Cousin Aria",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Frost Lynxes",
+        "Hex Warlock",
+        "Dread Corsair"
+      ],
+      "boss": {
+        "name": "Bonebreaker Hul",
+        "weakness": "Only staggers after parry-perfect 3 times"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Aria from Moonveil Ruins. They hold intel for next location.",
+        "mapFeatures": "Waterwheel duct",
+        "stealthTip": "Ride supply carts through gatehouse."
+      },
+      "rewards": {
+        "powerUnlocked": "Time Slip (slow time briefly)"
+      },
+      "guidance": {
+        "shamanWisdom": "Your blood remembers thrones; let your heart remember people."
+      }
+    },
+    {
+      "id": 58,
+      "variant": "boy",
+      "location": "Crimson Steppe",
+      "relative": {
+        "name": "Cousin Nyla",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Frost Lynxes",
+        "Shadow Archer"
+      ],
+      "boss": {
+        "name": "Warden Keth",
+        "weakness": "Keys hidden on hawks; shoot them down"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Nyla from Crimson Steppe. They hold intel for next location.",
+        "mapFeatures": "Cave fissure",
+        "stealthTip": "Sabotage alarm drums before entry."
+      },
+      "rewards": {
+        "powerUnlocked": "Viper Strike (stacking bleed)"
+      },
+      "guidance": {
+        "shamanWisdom": "A map shows walls; breath finds doors."
+      }
+    },
+    {
+      "id": 59,
+      "variant": "boy",
+      "location": "Ironroot Mines",
+      "relative": {
+        "name": "Aunt Rhea",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Ash Scorpions",
+        "Sand Rider"
+      ],
+      "boss": {
+        "name": "Storm Titan Oxx",
+        "weakness": "Grounded by conductive chains"
+      },
+      "mission": {
+        "hook": "Rescue Aunt Rhea from Ironroot Mines. They hold intel for next location.",
+        "mapFeatures": "Ivy climb",
+        "stealthTip": "Poison stew pots to thin numbers."
+      },
+      "rewards": {
+        "powerUnlocked": "Sanctum Ward (revive once per stage if unused)"
+      },
+      "guidance": {
+        "shamanWisdom": "Count the steps of your fear, then step once more."
+      }
+    },
+    {
+      "id": 60,
+      "variant": "boy",
+      "location": "Stormglass Keep",
+      "relative": {
+        "name": "Cousin Sera",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Razor Eagles",
+        "Hex Warlock",
+        "Crimson Pyromancer"
+      ],
+      "boss": {
+        "name": "Beastmother Siva",
+        "weakness": "Distract cubs; strike when she turns"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Sera from Stormglass Keep. They hold intel for next location.",
+        "mapFeatures": "Barred postern gate",
+        "stealthTip": "Scale ivy to the watchtower, avoid spotlight."
+      },
+      "rewards": {
+        "powerUnlocked": "Sky Ascent (rapid vertical lift)"
+      },
+      "guidance": {
+        "shamanWisdom": "Even giants drown in inches of truth."
+      }
+    },
+    {
+      "id": 61,
+      "variant": "boy",
+      "location": "Dune Sea Outpost",
+      "relative": {
+        "name": "Sister Lyra",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Frost Lynxes",
+        "Shock Lancer"
+      ],
+      "boss": {
+        "name": "General Krath",
+        "weakness": "Vulnerable during thunder; stun on lightning pylons"
+      },
+      "mission": {
+        "hook": "Rescue Sister Lyra from Dune Sea Outpost. They hold intel for next location.",
+        "mapFeatures": "Vent tunnels",
+        "stealthTip": "Cut lanterns to deepen shadows."
+      },
+      "rewards": {
+        "powerUnlocked": "Blink Step (short-range teleport)"
+      },
+      "guidance": {
+        "shamanWisdom": "Power without purpose is a candle in storm—shield your flame."
+      }
+    },
+    {
+      "id": 62,
+      "variant": "boy",
+      "location": "Rivergate",
+      "relative": {
+        "name": "Aunt Talia",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Feral Wolfpack",
+        "Rift Scout"
+      ],
+      "boss": {
+        "name": "Matron Vess",
+        "weakness": "Mirror shields reflect her beam; strike from behind"
+      },
+      "mission": {
+        "hook": "Rescue Aunt Talia from Rivergate. They hold intel for next location.",
+        "mapFeatures": "Hidden cistern",
+        "stealthTip": "Whistle near bells to misdirect patrols."
+      },
+      "rewards": {
+        "powerUnlocked": "Whirlwind Nova (360° knockback)"
+      },
+      "guidance": {
+        "shamanWisdom": "When wolves circle, become the wind, not the tree."
+      }
+    },
+    {
+      "id": 63,
+      "variant": "boy",
+      "location": "Frostfang Tundra",
+      "relative": {
+        "name": "Cousin Vela",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Blight Boars",
+        "Shock Lancer",
+        "Dread Corsair"
+      ],
+      "boss": {
+        "name": "Dreadsmith Orun",
+        "weakness": "Armor overheats near forges; use water barrels"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Vela from Frostfang Tundra. They hold intel for next location.",
+        "mapFeatures": "Rooftop ziplines",
+        "stealthTip": "Drop jars to lure wardens away."
+      },
+      "rewards": {
+        "powerUnlocked": "Shadow Veil (10s invisibility)"
+      },
+      "guidance": {
+        "shamanWisdom": "Every fortress has a forgotten vein; feel for its pulse."
+      }
+    },
+    {
+      "id": 64,
+      "variant": "boy",
+      "location": "Sunspire Plateau",
+      "relative": {
+        "name": "Cousin Rini",
+        "category": "children"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Ash Scorpions",
+        "Siege Grenadier"
+      ],
+      "boss": {
+        "name": "High Warlock Zev",
+        "weakness": "Interrupt chant with sonic arrows"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Rini from Sunspire Plateau. They hold intel for next location.",
+        "mapFeatures": "Sewer ladder",
+        "stealthTip": "Swim the culvert; bypass main gate."
+      },
+      "rewards": {
+        "powerUnlocked": "Aerial Glide (long jump/fall control)"
+      },
+      "guidance": {
+        "shamanWisdom": "Listen for lies in the quiet between war drums."
+      }
+    },
+    {
+      "id": 65,
+      "variant": "boy",
+      "location": "Whispering Marsh",
+      "relative": {
+        "name": "Aunt Kira",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Frost Lynxes",
+        "Shock Lancer"
+      ],
+      "boss": {
+        "name": "Giant Golem Rauk",
+        "weakness": "Cracks when frozen then shattered"
+      },
+      "mission": {
+        "hook": "Rescue Aunt Kira from Whispering Marsh. They hold intel for next location.",
+        "mapFeatures": "Collapsed tramway",
+        "stealthTip": "Mask steps with thunderclaps."
+      },
+      "rewards": {
+        "powerUnlocked": "Hawkeye Burst (multi-target auto-bow volley)"
+      },
+      "guidance": {
+        "shamanWisdom": "Mercy is a blade—wield it or sheath it with intent."
+      }
+    },
+    {
+      "id": 66,
+      "variant": "boy",
+      "location": "Nightorch Yard",
+      "relative": {
+        "name": "Niece Sumi",
+        "category": "children"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Tide Serpents",
+        "Iron Mauler",
+        "Golem Wrangler"
+      ],
+      "boss": {
+        "name": "Corsair Queen Nyra",
+        "weakness": "Harpoons jam the ship engine; board aft"
+      },
+      "mission": {
+        "hook": "Rescue Niece Sumi from Nightorch Yard. They hold intel for next location.",
+        "mapFeatures": "Crate labyrinth",
+        "stealthTip": "Shadow Archers can be pickpocketed for keys."
+      },
+      "rewards": {
+        "powerUnlocked": "Stoneguard (temporary invulnerability)"
+      },
+      "guidance": {
+        "shamanWisdom": "The sky carries you if you leap with wisdom."
+      }
+    },
+    {
+      "id": 67,
+      "variant": "boy",
+      "location": "Cobalt Narrows",
+      "relative": {
+        "name": "Brother Kael",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Razor Eagles",
+        "Rift Scout"
+      ],
+      "boss": {
+        "name": "Bonebreaker Hul",
+        "weakness": "Only staggers after parry-perfect 3 times"
+      },
+      "mission": {
+        "hook": "Rescue Brother Kael from Cobalt Narrows. They hold intel for next location.",
+        "mapFeatures": "Sub-basement vault",
+        "stealthTip": "Ride supply carts through gatehouse."
+      },
+      "rewards": {
+        "powerUnlocked": "Spectral Decoy (lures enemies)"
+      },
+      "guidance": {
+        "shamanWisdom": "Your blood remembers thrones; let your heart remember people."
+      }
+    },
+    {
+      "id": 68,
+      "variant": "boy",
+      "location": "Thornmere",
+      "relative": {
+        "name": "Cousin Daro",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Ash Scorpions",
+        "Bollock Raider"
+      ],
+      "boss": {
+        "name": "Warden Keth",
+        "weakness": "Keys hidden on hawks; shoot them down"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Daro from Thornmere. They hold intel for next location.",
+        "mapFeatures": "Crack-in-wall passage",
+        "stealthTip": "Sabotage alarm drums before entry."
+      },
+      "rewards": {
+        "powerUnlocked": "Thunderbrand (charged sword cleave)"
+      },
+      "guidance": {
+        "shamanWisdom": "A map shows walls; breath finds doors."
+      }
+    },
+    {
+      "id": 69,
+      "variant": "boy",
+      "location": "Aurora Crater",
+      "relative": {
+        "name": "Nephew Tajo",
+        "category": "children"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Ash Scorpions",
+        "Shock Lancer",
+        "Bone Shaman"
+      ],
+      "boss": {
+        "name": "Storm Titan Oxx",
+        "weakness": "Grounded by conductive chains"
+      },
+      "mission": {
+        "hook": "Rescue Nephew Tajo from Aurora Crater. They hold intel for next location.",
+        "mapFeatures": "Cistern sluice",
+        "stealthTip": "Poison stew pots to thin numbers."
+      },
+      "rewards": {
+        "powerUnlocked": "Ember Dash (flame dash, ignites oil)"
+      },
+      "guidance": {
+        "shamanWisdom": "Count the steps of your fear, then step once more."
+      }
+    },
+    {
+      "id": 70,
+      "variant": "boy",
+      "location": "Seabreak Fort",
+      "relative": {
+        "name": "Cousin Bram",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Ash Scorpions",
+        "Shock Lancer"
+      ],
+      "boss": {
+        "name": "Beastmother Siva",
+        "weakness": "Distract cubs; strike when she turns"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Bram from Seabreak Fort. They hold intel for next location.",
+        "mapFeatures": "Ceiling rafters",
+        "stealthTip": "Scale ivy to the watchtower, avoid spotlight."
+      },
+      "rewards": {
+        "powerUnlocked": "Frostlock (freeze cone)"
+      },
+      "guidance": {
+        "shamanWisdom": "Even giants drown in inches of truth."
+      }
+    },
+    {
+      "id": 71,
+      "variant": "boy",
+      "location": "Shattered Causeway",
+      "relative": {
+        "name": "Aunt Leena",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Blight Boars",
+        "Siege Grenadier"
+      ],
+      "boss": {
+        "name": "General Krath",
+        "weakness": "Vulnerable during thunder; stun on lightning pylons"
+      },
+      "mission": {
+        "hook": "Rescue Aunt Leena from Shattered Causeway. They hold intel for next location.",
+        "mapFeatures": "Chimney shaft",
+        "stealthTip": "Cut lanterns to deepen shadows."
+      },
+      "rewards": {
+        "powerUnlocked": "Chain Grapple (pull to ledges/enemies)"
+      },
+      "guidance": {
+        "shamanWisdom": "Power without purpose is a candle in storm—shield your flame."
+      }
+    },
+    {
+      "id": 72,
+      "variant": "boy",
+      "location": "Hushwind Grove",
+      "relative": {
+        "name": "Uncle Fen",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Ash Scorpions",
+        "Hex Warlock",
+        "Dread Corsair"
+      ],
+      "boss": {
+        "name": "Matron Vess",
+        "weakness": "Mirror shields reflect her beam; strike from behind"
+      },
+      "mission": {
+        "hook": "Rescue Uncle Fen from Hushwind Grove. They hold intel for next location.",
+        "mapFeatures": "Waterwheel duct",
+        "stealthTip": "Whistle near bells to misdirect patrols."
+      },
+      "rewards": {
+        "powerUnlocked": "Time Slip (slow time briefly)"
+      },
+      "guidance": {
+        "shamanWisdom": "When wolves circle, become the wind, not the tree."
+      }
+    },
+    {
+      "id": 73,
+      "variant": "boy",
+      "location": "Cobalt Reef",
+      "relative": {
+        "name": "Sister Mira",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Frost Lynxes",
+        "Shadow Archer"
+      ],
+      "boss": {
+        "name": "Dreadsmith Orun",
+        "weakness": "Armor overheats near forges; use water barrels"
+      },
+      "mission": {
+        "hook": "Rescue Sister Mira from Cobalt Reef. They hold intel for next location.",
+        "mapFeatures": "Cave fissure",
+        "stealthTip": "Drop jars to lure wardens away."
+      },
+      "rewards": {
+        "powerUnlocked": "Viper Strike (stacking bleed)"
+      },
+      "guidance": {
+        "shamanWisdom": "Every fortress has a forgotten vein; feel for its pulse."
+      }
+    },
+    {
+      "id": 74,
+      "variant": "boy",
+      "location": "Ivory Bastion",
+      "relative": {
+        "name": "Cousin Aria",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Ash Scorpions",
+        "Rift Scout"
+      ],
+      "boss": {
+        "name": "High Warlock Zev",
+        "weakness": "Interrupt chant with sonic arrows"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Aria from Ivory Bastion. They hold intel for next location.",
+        "mapFeatures": "Ivy climb",
+        "stealthTip": "Swim the culvert; bypass main gate."
+      },
+      "rewards": {
+        "powerUnlocked": "Sanctum Ward (revive once per stage if unused)"
+      },
+      "guidance": {
+        "shamanWisdom": "Listen for lies in the quiet between war drums."
+      }
+    },
+    {
+      "id": 75,
+      "variant": "boy",
+      "location": "Hearthfall Town",
+      "relative": {
+        "name": "Cousin Nyla",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Ash Scorpions",
+        "Bollock Raider",
+        "Stormcaller"
+      ],
+      "boss": {
+        "name": "Giant Golem Rauk",
+        "weakness": "Cracks when frozen then shattered"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Nyla from Hearthfall Town. They hold intel for next location.",
+        "mapFeatures": "Barred postern gate",
+        "stealthTip": "Mask steps with thunderclaps."
+      },
+      "rewards": {
+        "powerUnlocked": "Sky Ascent (rapid vertical lift)"
+      },
+      "guidance": {
+        "shamanWisdom": "Mercy is a blade—wield it or sheath it with intent."
+      }
+    },
+    {
+      "id": 76,
+      "variant": "boy",
+      "location": "Starfall Observatory",
+      "relative": {
+        "name": "Cousin Miri",
+        "category": "children"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Grim Bears",
+        "Hex Warlock"
+      ],
+      "boss": {
+        "name": "Corsair Queen Nyra",
+        "weakness": "Harpoons jam the ship engine; board aft"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Miri from Starfall Observatory. They hold intel for next location.",
+        "mapFeatures": "Vent tunnels",
+        "stealthTip": "Shadow Archers can be pickpocketed for keys."
+      },
+      "rewards": {
+        "powerUnlocked": "Blink Step (short-range teleport)"
+      },
+      "guidance": {
+        "shamanWisdom": "The sky carries you if you leap with wisdom."
+      }
+    },
+    {
+      "id": 77,
+      "variant": "boy",
+      "location": "Ravenwall",
+      "relative": {
+        "name": "Cousin Tor",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Feral Wolfpack",
+        "Bollock Raider"
+      ],
+      "boss": {
+        "name": "Bonebreaker Hul",
+        "weakness": "Only staggers after parry-perfect 3 times"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Tor from Ravenwall. They hold intel for next location.",
+        "mapFeatures": "Hidden cistern",
+        "stealthTip": "Ride supply carts through gatehouse."
+      },
+      "rewards": {
+        "powerUnlocked": "Whirlwind Nova (360° knockback)"
+      },
+      "guidance": {
+        "shamanWisdom": "Your blood remembers thrones; let your heart remember people."
+      }
+    },
+    {
+      "id": 78,
+      "variant": "boy",
+      "location": "Hollow Reef",
+      "relative": {
+        "name": "Aunt Rhea",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Frost Lynxes",
+        "Siege Grenadier",
+        "Golem Wrangler"
+      ],
+      "boss": {
+        "name": "Warden Keth",
+        "weakness": "Keys hidden on hawks; shoot them down"
+      },
+      "mission": {
+        "hook": "Rescue Aunt Rhea from Hollow Reef. They hold intel for next location.",
+        "mapFeatures": "Rooftop ziplines",
+        "stealthTip": "Sabotage alarm drums before entry."
+      },
+      "rewards": {
+        "powerUnlocked": "Shadow Veil (10s invisibility)"
+      },
+      "guidance": {
+        "shamanWisdom": "A map shows walls; breath finds doors."
+      }
+    },
+    {
+      "id": 79,
+      "variant": "boy",
+      "location": "Quartz Bazaar",
+      "relative": {
+        "name": "Cousin Poro",
+        "category": "children"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Razor Eagles",
+        "Rift Scout"
+      ],
+      "boss": {
+        "name": "Storm Titan Oxx",
+        "weakness": "Grounded by conductive chains"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Poro from Quartz Bazaar. They hold intel for next location.",
+        "mapFeatures": "Sewer ladder",
+        "stealthTip": "Poison stew pots to thin numbers."
+      },
+      "rewards": {
+        "powerUnlocked": "Aerial Glide (long jump/fall control)"
+      },
+      "guidance": {
+        "shamanWisdom": "Count the steps of your fear, then step once more."
+      }
+    },
+    {
+      "id": 80,
+      "variant": "boy",
+      "location": "Gloombridge",
+      "relative": {
+        "name": "Brother Iven",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Grim Bears",
+        "Bollock Raider"
+      ],
+      "boss": {
+        "name": "Beastmother Siva",
+        "weakness": "Distract cubs; strike when she turns"
+      },
+      "mission": {
+        "hook": "Rescue Brother Iven from Gloombridge. They hold intel for next location.",
+        "mapFeatures": "Collapsed tramway",
+        "stealthTip": "Scale ivy to the watchtower, avoid spotlight."
+      },
+      "rewards": {
+        "powerUnlocked": "Hawkeye Burst (multi-target auto-bow volley)"
+      },
+      "guidance": {
+        "shamanWisdom": "Even giants drown in inches of truth."
+      }
+    },
+    {
+      "id": 81,
+      "variant": "boy",
+      "location": "Skyforge Pinnacle",
+      "relative": {
+        "name": "Uncle Rold",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Blight Boars",
+        "Shock Lancer",
+        "Bone Shaman"
+      ],
+      "boss": {
+        "name": "General Krath",
+        "weakness": "Vulnerable during thunder; stun on lightning pylons"
+      },
+      "mission": {
+        "hook": "Rescue Uncle Rold from Skyforge Pinnacle. They hold intel for next location.",
+        "mapFeatures": "Crate labyrinth",
+        "stealthTip": "Cut lanterns to deepen shadows."
+      },
+      "rewards": {
+        "powerUnlocked": "Stoneguard (temporary invulnerability)"
+      },
+      "guidance": {
+        "shamanWisdom": "Power without purpose is a candle in storm—shield your flame."
+      }
+    },
+    {
+      "id": 82,
+      "variant": "boy",
+      "location": "Mirage Dunes",
+      "relative": {
+        "name": "Niece Yani",
+        "category": "children"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Feral Wolfpack",
+        "Iron Mauler"
+      ],
+      "boss": {
+        "name": "Matron Vess",
+        "weakness": "Mirror shields reflect her beam; strike from behind"
+      },
+      "mission": {
+        "hook": "Rescue Niece Yani from Mirage Dunes. They hold intel for next location.",
+        "mapFeatures": "Sub-basement vault",
+        "stealthTip": "Whistle near bells to misdirect patrols."
+      },
+      "rewards": {
+        "powerUnlocked": "Spectral Decoy (lures enemies)"
+      },
+      "guidance": {
+        "shamanWisdom": "When wolves circle, become the wind, not the tree."
+      }
+    },
+    {
+      "id": 83,
+      "variant": "boy",
+      "location": "Mirewatch",
+      "relative": {
+        "name": "Cousin Niko",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Razor Eagles",
+        "Sand Rider"
+      ],
+      "boss": {
+        "name": "Dreadsmith Orun",
+        "weakness": "Armor overheats near forges; use water barrels"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Niko from Mirewatch. They hold intel for next location.",
+        "mapFeatures": "Crack-in-wall passage",
+        "stealthTip": "Drop jars to lure wardens away."
+      },
+      "rewards": {
+        "powerUnlocked": "Thunderbrand (charged sword cleave)"
+      },
+      "guidance": {
+        "shamanWisdom": "Every fortress has a forgotten vein; feel for its pulse."
+      }
+    },
+    {
+      "id": 84,
+      "variant": "boy",
+      "location": "Copperhold",
+      "relative": {
+        "name": "Uncle Garr",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Razor Eagles",
+        "Bollock Raider",
+        "Golem Wrangler"
+      ],
+      "boss": {
+        "name": "High Warlock Zev",
+        "weakness": "Interrupt chant with sonic arrows"
+      },
+      "mission": {
+        "hook": "Rescue Uncle Garr from Copperhold. They hold intel for next location.",
+        "mapFeatures": "Cistern sluice",
+        "stealthTip": "Swim the culvert; bypass main gate."
+      },
+      "rewards": {
+        "powerUnlocked": "Ember Dash (flame dash, ignites oil)"
+      },
+      "guidance": {
+        "shamanWisdom": "Listen for lies in the quiet between war drums."
+      }
+    },
+    {
+      "id": 85,
+      "variant": "boy",
+      "location": "Driftwood Quay",
+      "relative": {
+        "name": "Uncle Joran",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Frost Lynxes",
+        "Bollock Raider"
+      ],
+      "boss": {
+        "name": "Giant Golem Rauk",
+        "weakness": "Cracks when frozen then shattered"
+      },
+      "mission": {
+        "hook": "Rescue Uncle Joran from Driftwood Quay. They hold intel for next location.",
+        "mapFeatures": "Ceiling rafters",
+        "stealthTip": "Mask steps with thunderclaps."
+      },
+      "rewards": {
+        "powerUnlocked": "Frostlock (freeze cone)"
+      },
+      "guidance": {
+        "shamanWisdom": "Mercy is a blade—wield it or sheath it with intent."
+      }
+    },
+    {
+      "id": 86,
+      "variant": "boy",
+      "location": "Flintgate",
+      "relative": {
+        "name": "Brother Kael",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Frost Lynxes",
+        "Shadow Archer"
+      ],
+      "boss": {
+        "name": "Corsair Queen Nyra",
+        "weakness": "Harpoons jam the ship engine; board aft"
+      },
+      "mission": {
+        "hook": "Rescue Brother Kael from Flintgate. They hold intel for next location.",
+        "mapFeatures": "Chimney shaft",
+        "stealthTip": "Shadow Archers can be pickpocketed for keys."
+      },
+      "rewards": {
+        "powerUnlocked": "Chain Grapple (pull to ledges/enemies)"
+      },
+      "guidance": {
+        "shamanWisdom": "The sky carries you if you leap with wisdom."
+      }
+    },
+    {
+      "id": 87,
+      "variant": "boy",
+      "location": "Glowfen",
+      "relative": {
+        "name": "Cousin Daro",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Tide Serpents",
+        "Shock Lancer",
+        "Blight Captain"
+      ],
+      "boss": {
+        "name": "Bonebreaker Hul",
+        "weakness": "Only staggers after parry-perfect 3 times"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Daro from Glowfen. They hold intel for next location.",
+        "mapFeatures": "Waterwheel duct",
+        "stealthTip": "Ride supply carts through gatehouse."
+      },
+      "rewards": {
+        "powerUnlocked": "Time Slip (slow time briefly)"
+      },
+      "guidance": {
+        "shamanWisdom": "Your blood remembers thrones; let your heart remember people."
+      }
+    },
+    {
+      "id": 88,
+      "variant": "boy",
+      "location": "Phantom Quarries",
+      "relative": {
+        "name": "Cousin Sera",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Grim Bears",
+        "Siege Grenadier"
+      ],
+      "boss": {
+        "name": "Warden Keth",
+        "weakness": "Keys hidden on hawks; shoot them down"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Sera from Phantom Quarries. They hold intel for next location.",
+        "mapFeatures": "Cave fissure",
+        "stealthTip": "Sabotage alarm drums before entry."
+      },
+      "rewards": {
+        "powerUnlocked": "Viper Strike (stacking bleed)"
+      },
+      "guidance": {
+        "shamanWisdom": "A map shows walls; breath finds doors."
+      }
+    },
+    {
+      "id": 89,
+      "variant": "boy",
+      "location": "Stormveil Arches",
+      "relative": {
+        "name": "Cousin Bram",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Tide Serpents",
+        "Siege Grenadier"
+      ],
+      "boss": {
+        "name": "Storm Titan Oxx",
+        "weakness": "Grounded by conductive chains"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Bram from Stormveil Arches. They hold intel for next location.",
+        "mapFeatures": "Ivy climb",
+        "stealthTip": "Poison stew pots to thin numbers."
+      },
+      "rewards": {
+        "powerUnlocked": "Sanctum Ward (revive once per stage if unused)"
+      },
+      "guidance": {
+        "shamanWisdom": "Count the steps of your fear, then step once more."
+      }
+    },
+    {
+      "id": 90,
+      "variant": "boy",
+      "location": "Flarecoast",
+      "relative": {
+        "name": "Uncle Fen",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Razor Eagles",
+        "Sand Rider",
+        "Obsidian Knight"
+      ],
+      "boss": {
+        "name": "Beastmother Siva",
+        "weakness": "Distract cubs; strike when she turns"
+      },
+      "mission": {
+        "hook": "Rescue Uncle Fen from Flarecoast. They hold intel for next location.",
+        "mapFeatures": "Barred postern gate",
+        "stealthTip": "Scale ivy to the watchtower, avoid spotlight."
+      },
+      "rewards": {
+        "powerUnlocked": "Sky Ascent (rapid vertical lift)"
+      },
+      "guidance": {
+        "shamanWisdom": "Even giants drown in inches of truth."
+      }
+    },
+    {
+      "id": 91,
+      "variant": "boy",
+      "location": "Oracle Steps",
+      "relative": {
+        "name": "Nephew Zed",
+        "category": "children"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Razor Eagles",
+        "Iron Mauler"
+      ],
+      "boss": {
+        "name": "General Krath",
+        "weakness": "Vulnerable during thunder; stun on lightning pylons"
+      },
+      "mission": {
+        "hook": "Rescue Nephew Zed from Oracle Steps. They hold intel for next location.",
+        "mapFeatures": "Vent tunnels",
+        "stealthTip": "Cut lanterns to deepen shadows."
+      },
+      "rewards": {
+        "powerUnlocked": "Blink Step (short-range teleport)"
+      },
+      "guidance": {
+        "shamanWisdom": "Power without purpose is a candle in storm—shield your flame."
+      }
+    },
+    {
+      "id": 92,
+      "variant": "boy",
+      "location": "Boulderrest",
+      "relative": {
+        "name": "Cousin Tor",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Grim Bears",
+        "Shadow Archer"
+      ],
+      "boss": {
+        "name": "Matron Vess",
+        "weakness": "Mirror shields reflect her beam; strike from behind"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Tor from Boulderrest. They hold intel for next location.",
+        "mapFeatures": "Hidden cistern",
+        "stealthTip": "Whistle near bells to misdirect patrols."
+      },
+      "rewards": {
+        "powerUnlocked": "Whirlwind Nova (360° knockback)"
+      },
+      "guidance": {
+        "shamanWisdom": "When wolves circle, become the wind, not the tree."
+      }
+    },
+    {
+      "id": 93,
+      "variant": "boy",
+      "location": "Saltspire",
+      "relative": {
+        "name": "Sister Lyra",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Ash Scorpions",
+        "Siege Grenadier",
+        "Stormcaller"
+      ],
+      "boss": {
+        "name": "Dreadsmith Orun",
+        "weakness": "Armor overheats near forges; use water barrels"
+      },
+      "mission": {
+        "hook": "Rescue Sister Lyra from Saltspire. They hold intel for next location.",
+        "mapFeatures": "Rooftop ziplines",
+        "stealthTip": "Drop jars to lure wardens away."
+      },
+      "rewards": {
+        "powerUnlocked": "Shadow Veil (10s invisibility)"
+      },
+      "guidance": {
+        "shamanWisdom": "Every fortress has a forgotten vein; feel for its pulse."
+      }
+    },
+    {
+      "id": 94,
+      "variant": "boy",
+      "location": "Wolfpine",
+      "relative": {
+        "name": "Brother Iven",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Grim Bears",
+        "Bollock Raider"
+      ],
+      "boss": {
+        "name": "High Warlock Zev",
+        "weakness": "Interrupt chant with sonic arrows"
+      },
+      "mission": {
+        "hook": "Rescue Brother Iven from Wolfpine. They hold intel for next location.",
+        "mapFeatures": "Sewer ladder",
+        "stealthTip": "Swim the culvert; bypass main gate."
+      },
+      "rewards": {
+        "powerUnlocked": "Aerial Glide (long jump/fall control)"
+      },
+      "guidance": {
+        "shamanWisdom": "Listen for lies in the quiet between war drums."
+      }
+    },
+    {
+      "id": 95,
+      "variant": "boy",
+      "location": "Glacier Rim",
+      "relative": {
+        "name": "Aunt Talia",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Swarm Spiders",
+        "Shadow Archer"
+      ],
+      "boss": {
+        "name": "Giant Golem Rauk",
+        "weakness": "Cracks when frozen then shattered"
+      },
+      "mission": {
+        "hook": "Rescue Aunt Talia from Glacier Rim. They hold intel for next location.",
+        "mapFeatures": "Collapsed tramway",
+        "stealthTip": "Mask steps with thunderclaps."
+      },
+      "rewards": {
+        "powerUnlocked": "Hawkeye Burst (multi-target auto-bow volley)"
+      },
+      "guidance": {
+        "shamanWisdom": "Mercy is a blade—wield it or sheath it with intent."
+      }
+    },
+    {
+      "id": 96,
+      "variant": "boy",
+      "location": "Echodrift",
+      "relative": {
+        "name": "Uncle Rold",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Tide Serpents",
+        "Rift Scout",
+        "Blight Captain"
+      ],
+      "boss": {
+        "name": "Corsair Queen Nyra",
+        "weakness": "Harpoons jam the ship engine; board aft"
+      },
+      "mission": {
+        "hook": "Rescue Uncle Rold from Echodrift. They hold intel for next location.",
+        "mapFeatures": "Crate labyrinth",
+        "stealthTip": "Shadow Archers can be pickpocketed for keys."
+      },
+      "rewards": {
+        "powerUnlocked": "Stoneguard (temporary invulnerability)"
+      },
+      "guidance": {
+        "shamanWisdom": "The sky carries you if you leap with wisdom."
+      }
+    },
+    {
+      "id": 97,
+      "variant": "boy",
+      "location": "Brimstone Pits",
+      "relative": {
+        "name": "Cousin Niko",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Ash Scorpions",
+        "Shadow Archer"
+      ],
+      "boss": {
+        "name": "Bonebreaker Hul",
+        "weakness": "Only staggers after parry-perfect 3 times"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Niko from Brimstone Pits. They hold intel for next location.",
+        "mapFeatures": "Sub-basement vault",
+        "stealthTip": "Ride supply carts through gatehouse."
+      },
+      "rewards": {
+        "powerUnlocked": "Spectral Decoy (lures enemies)"
+      },
+      "guidance": {
+        "shamanWisdom": "Your blood remembers thrones; let your heart remember people."
+      }
+    },
+    {
+      "id": 98,
+      "variant": "boy",
+      "location": "Larkspur Heights",
+      "relative": {
+        "name": "Cousin Vela",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Tide Serpents",
+        "Bollock Raider"
+      ],
+      "boss": {
+        "name": "Warden Keth",
+        "weakness": "Keys hidden on hawks; shoot them down"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Vela from Larkspur Heights. They hold intel for next location.",
+        "mapFeatures": "Crack-in-wall passage",
+        "stealthTip": "Sabotage alarm drums before entry."
+      },
+      "rewards": {
+        "powerUnlocked": "Thunderbrand (charged sword cleave)"
+      },
+      "guidance": {
+        "shamanWisdom": "A map shows walls; breath finds doors."
+      }
+    },
+    {
+      "id": 99,
+      "variant": "boy",
+      "location": "Brazen Yard",
+      "relative": {
+        "name": "Niece Pina",
+        "category": "children"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Tide Serpents",
+        "Sand Rider",
+        "Blight Captain"
+      ],
+      "boss": {
+        "name": "Storm Titan Oxx",
+        "weakness": "Grounded by conductive chains"
+      },
+      "mission": {
+        "hook": "Rescue Niece Pina from Brazen Yard. They hold intel for next location.",
+        "mapFeatures": "Cistern sluice",
+        "stealthTip": "Poison stew pots to thin numbers."
+      },
+      "rewards": {
+        "powerUnlocked": "Ember Dash (flame dash, ignites oil)"
+      },
+      "guidance": {
+        "shamanWisdom": "Count the steps of your fear, then step once more."
+      }
+    },
+    {
+      "id": 100,
+      "variant": "boy",
+      "location": "Mistwatch",
+      "relative": {
+        "name": "Aunt Kira",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": "Arc milestone at Stage 100: hidden sigil fragment recovered."
+      },
+      "enemies": [
+        "Ash Scorpions",
+        "Shock Lancer"
+      ],
+      "boss": {
+        "name": "Beastmother Siva",
+        "weakness": "Distract cubs; strike when she turns"
+      },
+      "mission": {
+        "hook": "Rescue Aunt Kira from Mistwatch. They hold intel for next location.",
+        "mapFeatures": "Ceiling rafters",
+        "stealthTip": "Scale ivy to the watchtower, avoid spotlight."
+      },
+      "rewards": {
+        "powerUnlocked": "Frostlock (freeze cone)"
+      },
+      "guidance": {
+        "shamanWisdom": "Even giants drown in inches of truth."
+      }
+    },
+    {
+      "id": 101,
+      "variant": "boy",
+      "location": "Ashenport Docks",
+      "relative": {
+        "name": "Uncle Garr",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Ash Scorpions",
+        "Iron Mauler"
+      ],
+      "boss": {
+        "name": "General Krath",
+        "weakness": "Vulnerable during thunder; stun on lightning pylons"
+      },
+      "mission": {
+        "hook": "Rescue Uncle Garr from Ashenport Docks. They hold intel for next location.",
+        "mapFeatures": "Chimney shaft",
+        "stealthTip": "Cut lanterns to deepen shadows."
+      },
+      "rewards": {
+        "powerUnlocked": "Chain Grapple (pull to ledges/enemies)"
+      },
+      "guidance": {
+        "shamanWisdom": "Power without purpose is a candle in storm—shield your flame."
+      }
+    },
+    {
+      "id": 102,
+      "variant": "boy",
+      "location": "Obsidian Bazaar",
+      "relative": {
+        "name": "Aunt Leena",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Grim Bears",
+        "Iron Mauler",
+        "Obsidian Knight"
+      ],
+      "boss": {
+        "name": "Matron Vess",
+        "weakness": "Mirror shields reflect her beam; strike from behind"
+      },
+      "mission": {
+        "hook": "Rescue Aunt Leena from Obsidian Bazaar. They hold intel for next location.",
+        "mapFeatures": "Waterwheel duct",
+        "stealthTip": "Whistle near bells to misdirect patrols."
+      },
+      "rewards": {
+        "powerUnlocked": "Time Slip (slow time briefly)"
+      },
+      "guidance": {
+        "shamanWisdom": "When wolves circle, become the wind, not the tree."
+      }
+    },
+    {
+      "id": 103,
+      "variant": "boy",
+      "location": "Sapphire Cliffs",
+      "relative": {
+        "name": "Sister Mira",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Blight Boars",
+        "Hex Warlock"
+      ],
+      "boss": {
+        "name": "Dreadsmith Orun",
+        "weakness": "Armor overheats near forges; use water barrels"
+      },
+      "mission": {
+        "hook": "Rescue Sister Mira from Sapphire Cliffs. They hold intel for next location.",
+        "mapFeatures": "Cave fissure",
+        "stealthTip": "Drop jars to lure wardens away."
+      },
+      "rewards": {
+        "powerUnlocked": "Viper Strike (stacking bleed)"
+      },
+      "guidance": {
+        "shamanWisdom": "Every fortress has a forgotten vein; feel for its pulse."
+      }
+    },
+    {
+      "id": 104,
+      "variant": "boy",
+      "location": "Ember Hollow",
+      "relative": {
+        "name": "Cousin Aria",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Razor Eagles",
+        "Hex Warlock"
+      ],
+      "boss": {
+        "name": "High Warlock Zev",
+        "weakness": "Interrupt chant with sonic arrows"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Aria from Ember Hollow. They hold intel for next location.",
+        "mapFeatures": "Ivy climb",
+        "stealthTip": "Swim the culvert; bypass main gate."
+      },
+      "rewards": {
+        "powerUnlocked": "Sanctum Ward (revive once per stage if unused)"
+      },
+      "guidance": {
+        "shamanWisdom": "Listen for lies in the quiet between war drums."
+      }
+    },
+    {
+      "id": 105,
+      "variant": "boy",
+      "location": "Verdant Sprawl",
+      "relative": {
+        "name": "Uncle Joran",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Feral Wolfpack",
+        "Shock Lancer",
+        "Phantom Blade"
+      ],
+      "boss": {
+        "name": "Giant Golem Rauk",
+        "weakness": "Cracks when frozen then shattered"
+      },
+      "mission": {
+        "hook": "Rescue Uncle Joran from Verdant Sprawl. They hold intel for next location.",
+        "mapFeatures": "Barred postern gate",
+        "stealthTip": "Mask steps with thunderclaps."
+      },
+      "rewards": {
+        "powerUnlocked": "Sky Ascent (rapid vertical lift)"
+      },
+      "guidance": {
+        "shamanWisdom": "Mercy is a blade—wield it or sheath it with intent."
+      }
+    },
+    {
+      "id": 106,
+      "variant": "boy",
+      "location": "Gale Citadel",
+      "relative": {
+        "name": "Cousin Nyla",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Frost Lynxes",
+        "Iron Mauler"
+      ],
+      "boss": {
+        "name": "Corsair Queen Nyra",
+        "weakness": "Harpoons jam the ship engine; board aft"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Nyla from Gale Citadel. They hold intel for next location.",
+        "mapFeatures": "Vent tunnels",
+        "stealthTip": "Shadow Archers can be pickpocketed for keys."
+      },
+      "rewards": {
+        "powerUnlocked": "Blink Step (short-range teleport)"
+      },
+      "guidance": {
+        "shamanWisdom": "The sky carries you if you leap with wisdom."
+      }
+    },
+    {
+      "id": 107,
+      "variant": "boy",
+      "location": "Moonveil Ruins",
+      "relative": {
+        "name": "Nephew Iko",
+        "category": "children"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Grim Bears",
+        "Shock Lancer"
+      ],
+      "boss": {
+        "name": "Bonebreaker Hul",
+        "weakness": "Only staggers after parry-perfect 3 times"
+      },
+      "mission": {
+        "hook": "Rescue Nephew Iko from Moonveil Ruins. They hold intel for next location.",
+        "mapFeatures": "Hidden cistern",
+        "stealthTip": "Ride supply carts through gatehouse."
+      },
+      "rewards": {
+        "powerUnlocked": "Whirlwind Nova (360° knockback)"
+      },
+      "guidance": {
+        "shamanWisdom": "Your blood remembers thrones; let your heart remember people."
+      }
+    },
+    {
+      "id": 108,
+      "variant": "boy",
+      "location": "Crimson Steppe",
+      "relative": {
+        "name": "Aunt Rhea",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Grim Bears",
+        "Shadow Archer",
+        "Golem Wrangler"
+      ],
+      "boss": {
+        "name": "Warden Keth",
+        "weakness": "Keys hidden on hawks; shoot them down"
+      },
+      "mission": {
+        "hook": "Rescue Aunt Rhea from Crimson Steppe. They hold intel for next location.",
+        "mapFeatures": "Rooftop ziplines",
+        "stealthTip": "Sabotage alarm drums before entry."
+      },
+      "rewards": {
+        "powerUnlocked": "Shadow Veil (10s invisibility)"
+      },
+      "guidance": {
+        "shamanWisdom": "A map shows walls; breath finds doors."
+      }
+    },
+    {
+      "id": 109,
+      "variant": "boy",
+      "location": "Ironroot Mines",
+      "relative": {
+        "name": "Brother Kael",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Feral Wolfpack",
+        "Sand Rider"
+      ],
+      "boss": {
+        "name": "Storm Titan Oxx",
+        "weakness": "Grounded by conductive chains"
+      },
+      "mission": {
+        "hook": "Rescue Brother Kael from Ironroot Mines. They hold intel for next location.",
+        "mapFeatures": "Sewer ladder",
+        "stealthTip": "Poison stew pots to thin numbers."
+      },
+      "rewards": {
+        "powerUnlocked": "Aerial Glide (long jump/fall control)"
+      },
+      "guidance": {
+        "shamanWisdom": "Count the steps of your fear, then step once more."
+      }
+    },
+    {
+      "id": 110,
+      "variant": "boy",
+      "location": "Stormglass Keep",
+      "relative": {
+        "name": "Cousin Sera",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Feral Wolfpack",
+        "Shadow Archer"
+      ],
+      "boss": {
+        "name": "Beastmother Siva",
+        "weakness": "Distract cubs; strike when she turns"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Sera from Stormglass Keep. They hold intel for next location.",
+        "mapFeatures": "Collapsed tramway",
+        "stealthTip": "Scale ivy to the watchtower, avoid spotlight."
+      },
+      "rewards": {
+        "powerUnlocked": "Hawkeye Burst (multi-target auto-bow volley)"
+      },
+      "guidance": {
+        "shamanWisdom": "Even giants drown in inches of truth."
+      }
+    },
+    {
+      "id": 111,
+      "variant": "boy",
+      "location": "Dune Sea Outpost",
+      "relative": {
+        "name": "Cousin Lumo",
+        "category": "children"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Frost Lynxes",
+        "Sand Rider",
+        "Stormcaller"
+      ],
+      "boss": {
+        "name": "General Krath",
+        "weakness": "Vulnerable during thunder; stun on lightning pylons"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Lumo from Dune Sea Outpost. They hold intel for next location.",
+        "mapFeatures": "Crate labyrinth",
+        "stealthTip": "Cut lanterns to deepen shadows."
+      },
+      "rewards": {
+        "powerUnlocked": "Stoneguard (temporary invulnerability)"
+      },
+      "guidance": {
+        "shamanWisdom": "Power without purpose is a candle in storm—shield your flame."
+      }
+    },
+    {
+      "id": 112,
+      "variant": "boy",
+      "location": "Rivergate",
+      "relative": {
+        "name": "Sister Lyra",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Frost Lynxes",
+        "Iron Mauler"
+      ],
+      "boss": {
+        "name": "Matron Vess",
+        "weakness": "Mirror shields reflect her beam; strike from behind"
+      },
+      "mission": {
+        "hook": "Rescue Sister Lyra from Rivergate. They hold intel for next location.",
+        "mapFeatures": "Sub-basement vault",
+        "stealthTip": "Whistle near bells to misdirect patrols."
+      },
+      "rewards": {
+        "powerUnlocked": "Spectral Decoy (lures enemies)"
+      },
+      "guidance": {
+        "shamanWisdom": "When wolves circle, become the wind, not the tree."
+      }
+    },
+    {
+      "id": 113,
+      "variant": "boy",
+      "location": "Frostfang Tundra",
+      "relative": {
+        "name": "Aunt Talia",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Blight Boars",
+        "Hex Warlock"
+      ],
+      "boss": {
+        "name": "Dreadsmith Orun",
+        "weakness": "Armor overheats near forges; use water barrels"
+      },
+      "mission": {
+        "hook": "Rescue Aunt Talia from Frostfang Tundra. They hold intel for next location.",
+        "mapFeatures": "Crack-in-wall passage",
+        "stealthTip": "Drop jars to lure wardens away."
+      },
+      "rewards": {
+        "powerUnlocked": "Thunderbrand (charged sword cleave)"
+      },
+      "guidance": {
+        "shamanWisdom": "Every fortress has a forgotten vein; feel for its pulse."
+      }
+    },
+    {
+      "id": 114,
+      "variant": "boy",
+      "location": "Sunspire Plateau",
+      "relative": {
+        "name": "Cousin Vela",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Ash Scorpions",
+        "Sand Rider",
+        "Blight Captain"
+      ],
+      "boss": {
+        "name": "High Warlock Zev",
+        "weakness": "Interrupt chant with sonic arrows"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Vela from Sunspire Plateau. They hold intel for next location.",
+        "mapFeatures": "Cistern sluice",
+        "stealthTip": "Swim the culvert; bypass main gate."
+      },
+      "rewards": {
+        "powerUnlocked": "Ember Dash (flame dash, ignites oil)"
+      },
+      "guidance": {
+        "shamanWisdom": "Listen for lies in the quiet between war drums."
+      }
+    },
+    {
+      "id": 115,
+      "variant": "boy",
+      "location": "Whispering Marsh",
+      "relative": {
+        "name": "Aunt Kira",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Grim Bears",
+        "Hex Warlock"
+      ],
+      "boss": {
+        "name": "Giant Golem Rauk",
+        "weakness": "Cracks when frozen then shattered"
+      },
+      "mission": {
+        "hook": "Rescue Aunt Kira from Whispering Marsh. They hold intel for next location.",
+        "mapFeatures": "Ceiling rafters",
+        "stealthTip": "Mask steps with thunderclaps."
+      },
+      "rewards": {
+        "powerUnlocked": "Frostlock (freeze cone)"
+      },
+      "guidance": {
+        "shamanWisdom": "Mercy is a blade—wield it or sheath it with intent."
+      }
+    },
+    {
+      "id": 116,
+      "variant": "boy",
+      "location": "Nightorch Yard",
+      "relative": {
+        "name": "Aunt Leena",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Razor Eagles",
+        "Shadow Archer"
+      ],
+      "boss": {
+        "name": "Corsair Queen Nyra",
+        "weakness": "Harpoons jam the ship engine; board aft"
+      },
+      "mission": {
+        "hook": "Rescue Aunt Leena from Nightorch Yard. They hold intel for next location.",
+        "mapFeatures": "Chimney shaft",
+        "stealthTip": "Shadow Archers can be pickpocketed for keys."
+      },
+      "rewards": {
+        "powerUnlocked": "Chain Grapple (pull to ledges/enemies)"
+      },
+      "guidance": {
+        "shamanWisdom": "The sky carries you if you leap with wisdom."
+      }
+    },
+    {
+      "id": 117,
+      "variant": "boy",
+      "location": "Cobalt Narrows",
+      "relative": {
+        "name": "Cousin Rini",
+        "category": "children"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Grim Bears",
+        "Sand Rider",
+        "Bone Shaman"
+      ],
+      "boss": {
+        "name": "Bonebreaker Hul",
+        "weakness": "Only staggers after parry-perfect 3 times"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Rini from Cobalt Narrows. They hold intel for next location.",
+        "mapFeatures": "Waterwheel duct",
+        "stealthTip": "Ride supply carts through gatehouse."
+      },
+      "rewards": {
+        "powerUnlocked": "Time Slip (slow time briefly)"
+      },
+      "guidance": {
+        "shamanWisdom": "Your blood remembers thrones; let your heart remember people."
+      }
+    },
+    {
+      "id": 118,
+      "variant": "boy",
+      "location": "Thornmere",
+      "relative": {
+        "name": "Niece Sumi",
+        "category": "children"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Ash Scorpions",
+        "Sand Rider"
+      ],
+      "boss": {
+        "name": "Warden Keth",
+        "weakness": "Keys hidden on hawks; shoot them down"
+      },
+      "mission": {
+        "hook": "Rescue Niece Sumi from Thornmere. They hold intel for next location.",
+        "mapFeatures": "Cave fissure",
+        "stealthTip": "Sabotage alarm drums before entry."
+      },
+      "rewards": {
+        "powerUnlocked": "Viper Strike (stacking bleed)"
+      },
+      "guidance": {
+        "shamanWisdom": "A map shows walls; breath finds doors."
+      }
+    },
+    {
+      "id": 119,
+      "variant": "boy",
+      "location": "Aurora Crater",
+      "relative": {
+        "name": "Sister Mira",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Feral Wolfpack",
+        "Hex Warlock"
+      ],
+      "boss": {
+        "name": "Storm Titan Oxx",
+        "weakness": "Grounded by conductive chains"
+      },
+      "mission": {
+        "hook": "Rescue Sister Mira from Aurora Crater. They hold intel for next location.",
+        "mapFeatures": "Ivy climb",
+        "stealthTip": "Poison stew pots to thin numbers."
+      },
+      "rewards": {
+        "powerUnlocked": "Sanctum Ward (revive once per stage if unused)"
+      },
+      "guidance": {
+        "shamanWisdom": "Count the steps of your fear, then step once more."
+      }
+    },
+    {
+      "id": 120,
+      "variant": "boy",
+      "location": "Seabreak Fort",
+      "relative": {
+        "name": "Cousin Aria",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Ash Scorpions",
+        "Shadow Archer",
+        "Phantom Blade"
+      ],
+      "boss": {
+        "name": "Beastmother Siva",
+        "weakness": "Distract cubs; strike when she turns"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Aria from Seabreak Fort. They hold intel for next location.",
+        "mapFeatures": "Barred postern gate",
+        "stealthTip": "Scale ivy to the watchtower, avoid spotlight."
+      },
+      "rewards": {
+        "powerUnlocked": "Sky Ascent (rapid vertical lift)"
+      },
+      "guidance": {
+        "shamanWisdom": "Even giants drown in inches of truth."
+      }
+    },
+    {
+      "id": 121,
+      "variant": "boy",
+      "location": "Shattered Causeway",
+      "relative": {
+        "name": "Nephew Tajo",
+        "category": "children"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Frost Lynxes",
+        "Rift Scout"
+      ],
+      "boss": {
+        "name": "General Krath",
+        "weakness": "Vulnerable during thunder; stun on lightning pylons"
+      },
+      "mission": {
+        "hook": "Rescue Nephew Tajo from Shattered Causeway. They hold intel for next location.",
+        "mapFeatures": "Vent tunnels",
+        "stealthTip": "Cut lanterns to deepen shadows."
+      },
+      "rewards": {
+        "powerUnlocked": "Blink Step (short-range teleport)"
+      },
+      "guidance": {
+        "shamanWisdom": "Power without purpose is a candle in storm—shield your flame."
+      }
+    },
+    {
+      "id": 122,
+      "variant": "boy",
+      "location": "Hushwind Grove",
+      "relative": {
+        "name": "Cousin Nyla",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Swarm Spiders",
+        "Rift Scout"
+      ],
+      "boss": {
+        "name": "Matron Vess",
+        "weakness": "Mirror shields reflect her beam; strike from behind"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Nyla from Hushwind Grove. They hold intel for next location.",
+        "mapFeatures": "Hidden cistern",
+        "stealthTip": "Whistle near bells to misdirect patrols."
+      },
+      "rewards": {
+        "powerUnlocked": "Whirlwind Nova (360° knockback)"
+      },
+      "guidance": {
+        "shamanWisdom": "When wolves circle, become the wind, not the tree."
+      }
+    },
+    {
+      "id": 123,
+      "variant": "boy",
+      "location": "Cobalt Reef",
+      "relative": {
+        "name": "Aunt Rhea",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Tide Serpents",
+        "Rift Scout",
+        "Bone Shaman"
+      ],
+      "boss": {
+        "name": "Dreadsmith Orun",
+        "weakness": "Armor overheats near forges; use water barrels"
+      },
+      "mission": {
+        "hook": "Rescue Aunt Rhea from Cobalt Reef. They hold intel for next location.",
+        "mapFeatures": "Rooftop ziplines",
+        "stealthTip": "Drop jars to lure wardens away."
+      },
+      "rewards": {
+        "powerUnlocked": "Shadow Veil (10s invisibility)"
+      },
+      "guidance": {
+        "shamanWisdom": "Every fortress has a forgotten vein; feel for its pulse."
+      }
+    },
+    {
+      "id": 124,
+      "variant": "boy",
+      "location": "Ivory Bastion",
+      "relative": {
+        "name": "Cousin Daro",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Blight Boars",
+        "Hex Warlock"
+      ],
+      "boss": {
+        "name": "High Warlock Zev",
+        "weakness": "Interrupt chant with sonic arrows"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Daro from Ivory Bastion. They hold intel for next location.",
+        "mapFeatures": "Sewer ladder",
+        "stealthTip": "Swim the culvert; bypass main gate."
+      },
+      "rewards": {
+        "powerUnlocked": "Aerial Glide (long jump/fall control)"
+      },
+      "guidance": {
+        "shamanWisdom": "Listen for lies in the quiet between war drums."
+      }
+    },
+    {
+      "id": 125,
+      "variant": "boy",
+      "location": "Hearthfall Town",
+      "relative": {
+        "name": "Cousin Sera",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Frost Lynxes",
+        "Shock Lancer"
+      ],
+      "boss": {
+        "name": "Giant Golem Rauk",
+        "weakness": "Cracks when frozen then shattered"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Sera from Hearthfall Town. They hold intel for next location.",
+        "mapFeatures": "Collapsed tramway",
+        "stealthTip": "Mask steps with thunderclaps."
+      },
+      "rewards": {
+        "powerUnlocked": "Hawkeye Burst (multi-target auto-bow volley)"
+      },
+      "guidance": {
+        "shamanWisdom": "Mercy is a blade—wield it or sheath it with intent."
+      }
+    },
+    {
+      "id": 126,
+      "variant": "boy",
+      "location": "Starfall Observatory",
+      "relative": {
+        "name": "Cousin Bram",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Tide Serpents",
+        "Hex Warlock",
+        "Dread Corsair"
+      ],
+      "boss": {
+        "name": "Corsair Queen Nyra",
+        "weakness": "Harpoons jam the ship engine; board aft"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Bram from Starfall Observatory. They hold intel for next location.",
+        "mapFeatures": "Crate labyrinth",
+        "stealthTip": "Shadow Archers can be pickpocketed for keys."
+      },
+      "rewards": {
+        "powerUnlocked": "Stoneguard (temporary invulnerability)"
+      },
+      "guidance": {
+        "shamanWisdom": "The sky carries you if you leap with wisdom."
+      }
+    },
+    {
+      "id": 127,
+      "variant": "boy",
+      "location": "Ravenwall",
+      "relative": {
+        "name": "Uncle Fen",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Tide Serpents",
+        "Siege Grenadier"
+      ],
+      "boss": {
+        "name": "Bonebreaker Hul",
+        "weakness": "Only staggers after parry-perfect 3 times"
+      },
+      "mission": {
+        "hook": "Rescue Uncle Fen from Ravenwall. They hold intel for next location.",
+        "mapFeatures": "Sub-basement vault",
+        "stealthTip": "Ride supply carts through gatehouse."
+      },
+      "rewards": {
+        "powerUnlocked": "Spectral Decoy (lures enemies)"
+      },
+      "guidance": {
+        "shamanWisdom": "Your blood remembers thrones; let your heart remember people."
+      }
+    },
+    {
+      "id": 128,
+      "variant": "boy",
+      "location": "Hollow Reef",
+      "relative": {
+        "name": "Sister Lyra",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Feral Wolfpack",
+        "Bollock Raider"
+      ],
+      "boss": {
+        "name": "Warden Keth",
+        "weakness": "Keys hidden on hawks; shoot them down"
+      },
+      "mission": {
+        "hook": "Rescue Sister Lyra from Hollow Reef. They hold intel for next location.",
+        "mapFeatures": "Crack-in-wall passage",
+        "stealthTip": "Sabotage alarm drums before entry."
+      },
+      "rewards": {
+        "powerUnlocked": "Thunderbrand (charged sword cleave)"
+      },
+      "guidance": {
+        "shamanWisdom": "A map shows walls; breath finds doors."
+      }
+    },
+    {
+      "id": 129,
+      "variant": "boy",
+      "location": "Quartz Bazaar",
+      "relative": {
+        "name": "Cousin Tor",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Tide Serpents",
+        "Rift Scout",
+        "Stormcaller"
+      ],
+      "boss": {
+        "name": "Storm Titan Oxx",
+        "weakness": "Grounded by conductive chains"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Tor from Quartz Bazaar. They hold intel for next location.",
+        "mapFeatures": "Cistern sluice",
+        "stealthTip": "Poison stew pots to thin numbers."
+      },
+      "rewards": {
+        "powerUnlocked": "Ember Dash (flame dash, ignites oil)"
+      },
+      "guidance": {
+        "shamanWisdom": "Count the steps of your fear, then step once more."
+      }
+    },
+    {
+      "id": 130,
+      "variant": "boy",
+      "location": "Gloombridge",
+      "relative": {
+        "name": "Brother Iven",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Swarm Spiders",
+        "Sand Rider"
+      ],
+      "boss": {
+        "name": "Beastmother Siva",
+        "weakness": "Distract cubs; strike when she turns"
+      },
+      "mission": {
+        "hook": "Rescue Brother Iven from Gloombridge. They hold intel for next location.",
+        "mapFeatures": "Ceiling rafters",
+        "stealthTip": "Scale ivy to the watchtower, avoid spotlight."
+      },
+      "rewards": {
+        "powerUnlocked": "Frostlock (freeze cone)"
+      },
+      "guidance": {
+        "shamanWisdom": "Even giants drown in inches of truth."
+      }
+    },
+    {
+      "id": 131,
+      "variant": "boy",
+      "location": "Skyforge Pinnacle",
+      "relative": {
+        "name": "Aunt Talia",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Tide Serpents",
+        "Sand Rider"
+      ],
+      "boss": {
+        "name": "General Krath",
+        "weakness": "Vulnerable during thunder; stun on lightning pylons"
+      },
+      "mission": {
+        "hook": "Rescue Aunt Talia from Skyforge Pinnacle. They hold intel for next location.",
+        "mapFeatures": "Chimney shaft",
+        "stealthTip": "Cut lanterns to deepen shadows."
+      },
+      "rewards": {
+        "powerUnlocked": "Chain Grapple (pull to ledges/enemies)"
+      },
+      "guidance": {
+        "shamanWisdom": "Power without purpose is a candle in storm—shield your flame."
+      }
+    },
+    {
+      "id": 132,
+      "variant": "boy",
+      "location": "Mirage Dunes",
+      "relative": {
+        "name": "Uncle Rold",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Swarm Spiders",
+        "Sand Rider",
+        "Dread Corsair"
+      ],
+      "boss": {
+        "name": "Matron Vess",
+        "weakness": "Mirror shields reflect her beam; strike from behind"
+      },
+      "mission": {
+        "hook": "Rescue Uncle Rold from Mirage Dunes. They hold intel for next location.",
+        "mapFeatures": "Waterwheel duct",
+        "stealthTip": "Whistle near bells to misdirect patrols."
+      },
+      "rewards": {
+        "powerUnlocked": "Time Slip (slow time briefly)"
+      },
+      "guidance": {
+        "shamanWisdom": "When wolves circle, become the wind, not the tree."
+      }
+    },
+    {
+      "id": 133,
+      "variant": "boy",
+      "location": "Mirewatch",
+      "relative": {
+        "name": "Cousin Vela",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Razor Eagles",
+        "Bollock Raider"
+      ],
+      "boss": {
+        "name": "Dreadsmith Orun",
+        "weakness": "Armor overheats near forges; use water barrels"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Vela from Mirewatch. They hold intel for next location.",
+        "mapFeatures": "Cave fissure",
+        "stealthTip": "Drop jars to lure wardens away."
+      },
+      "rewards": {
+        "powerUnlocked": "Viper Strike (stacking bleed)"
+      },
+      "guidance": {
+        "shamanWisdom": "Every fortress has a forgotten vein; feel for its pulse."
+      }
+    },
+    {
+      "id": 134,
+      "variant": "boy",
+      "location": "Copperhold",
+      "relative": {
+        "name": "Cousin Miri",
+        "category": "children"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Blight Boars",
+        "Sand Rider"
+      ],
+      "boss": {
+        "name": "High Warlock Zev",
+        "weakness": "Interrupt chant with sonic arrows"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Miri from Copperhold. They hold intel for next location.",
+        "mapFeatures": "Ivy climb",
+        "stealthTip": "Swim the culvert; bypass main gate."
+      },
+      "rewards": {
+        "powerUnlocked": "Sanctum Ward (revive once per stage if unused)"
+      },
+      "guidance": {
+        "shamanWisdom": "Listen for lies in the quiet between war drums."
+      }
+    },
+    {
+      "id": 135,
+      "variant": "boy",
+      "location": "Driftwood Quay",
+      "relative": {
+        "name": "Cousin Poro",
+        "category": "children"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Tide Serpents",
+        "Siege Grenadier",
+        "Crimson Pyromancer"
+      ],
+      "boss": {
+        "name": "Giant Golem Rauk",
+        "weakness": "Cracks when frozen then shattered"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Poro from Driftwood Quay. They hold intel for next location.",
+        "mapFeatures": "Barred postern gate",
+        "stealthTip": "Mask steps with thunderclaps."
+      },
+      "rewards": {
+        "powerUnlocked": "Sky Ascent (rapid vertical lift)"
+      },
+      "guidance": {
+        "shamanWisdom": "Mercy is a blade—wield it or sheath it with intent."
+      }
+    },
+    {
+      "id": 136,
+      "variant": "boy",
+      "location": "Flintgate",
+      "relative": {
+        "name": "Aunt Kira",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Feral Wolfpack",
+        "Shadow Archer"
+      ],
+      "boss": {
+        "name": "Corsair Queen Nyra",
+        "weakness": "Harpoons jam the ship engine; board aft"
+      },
+      "mission": {
+        "hook": "Rescue Aunt Kira from Flintgate. They hold intel for next location.",
+        "mapFeatures": "Vent tunnels",
+        "stealthTip": "Shadow Archers can be pickpocketed for keys."
+      },
+      "rewards": {
+        "powerUnlocked": "Blink Step (short-range teleport)"
+      },
+      "guidance": {
+        "shamanWisdom": "The sky carries you if you leap with wisdom."
+      }
+    },
+    {
+      "id": 137,
+      "variant": "boy",
+      "location": "Glowfen",
+      "relative": {
+        "name": "Aunt Leena",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Blight Boars",
+        "Rift Scout"
+      ],
+      "boss": {
+        "name": "Bonebreaker Hul",
+        "weakness": "Only staggers after parry-perfect 3 times"
+      },
+      "mission": {
+        "hook": "Rescue Aunt Leena from Glowfen. They hold intel for next location.",
+        "mapFeatures": "Hidden cistern",
+        "stealthTip": "Ride supply carts through gatehouse."
+      },
+      "rewards": {
+        "powerUnlocked": "Whirlwind Nova (360° knockback)"
+      },
+      "guidance": {
+        "shamanWisdom": "Your blood remembers thrones; let your heart remember people."
+      }
+    },
+    {
+      "id": 138,
+      "variant": "boy",
+      "location": "Phantom Quarries",
+      "relative": {
+        "name": "Sister Mira",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Razor Eagles",
+        "Rift Scout",
+        "Blight Captain"
+      ],
+      "boss": {
+        "name": "Warden Keth",
+        "weakness": "Keys hidden on hawks; shoot them down"
+      },
+      "mission": {
+        "hook": "Rescue Sister Mira from Phantom Quarries. They hold intel for next location.",
+        "mapFeatures": "Rooftop ziplines",
+        "stealthTip": "Sabotage alarm drums before entry."
+      },
+      "rewards": {
+        "powerUnlocked": "Shadow Veil (10s invisibility)"
+      },
+      "guidance": {
+        "shamanWisdom": "A map shows walls; breath finds doors."
+      }
+    },
+    {
+      "id": 139,
+      "variant": "boy",
+      "location": "Stormveil Arches",
+      "relative": {
+        "name": "Cousin Aria",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Swarm Spiders",
+        "Sand Rider"
+      ],
+      "boss": {
+        "name": "Storm Titan Oxx",
+        "weakness": "Grounded by conductive chains"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Aria from Stormveil Arches. They hold intel for next location.",
+        "mapFeatures": "Sewer ladder",
+        "stealthTip": "Poison stew pots to thin numbers."
+      },
+      "rewards": {
+        "powerUnlocked": "Aerial Glide (long jump/fall control)"
+      },
+      "guidance": {
+        "shamanWisdom": "Count the steps of your fear, then step once more."
+      }
+    },
+    {
+      "id": 140,
+      "variant": "boy",
+      "location": "Flarecoast",
+      "relative": {
+        "name": "Cousin Nyla",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Swarm Spiders",
+        "Siege Grenadier"
+      ],
+      "boss": {
+        "name": "Beastmother Siva",
+        "weakness": "Distract cubs; strike when she turns"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Nyla from Flarecoast. They hold intel for next location.",
+        "mapFeatures": "Collapsed tramway",
+        "stealthTip": "Scale ivy to the watchtower, avoid spotlight."
+      },
+      "rewards": {
+        "powerUnlocked": "Hawkeye Burst (multi-target auto-bow volley)"
+      },
+      "guidance": {
+        "shamanWisdom": "Even giants drown in inches of truth."
+      }
+    },
+    {
+      "id": 141,
+      "variant": "boy",
+      "location": "Oracle Steps",
+      "relative": {
+        "name": "Cousin Niko",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Swarm Spiders",
+        "Rift Scout",
+        "Golem Wrangler"
+      ],
+      "boss": {
+        "name": "General Krath",
+        "weakness": "Vulnerable during thunder; stun on lightning pylons"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Niko from Oracle Steps. They hold intel for next location.",
+        "mapFeatures": "Crate labyrinth",
+        "stealthTip": "Cut lanterns to deepen shadows."
+      },
+      "rewards": {
+        "powerUnlocked": "Stoneguard (temporary invulnerability)"
+      },
+      "guidance": {
+        "shamanWisdom": "Power without purpose is a candle in storm—shield your flame."
+      }
+    },
+    {
+      "id": 142,
+      "variant": "boy",
+      "location": "Boulderrest",
+      "relative": {
+        "name": "Aunt Rhea",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Tide Serpents",
+        "Hex Warlock"
+      ],
+      "boss": {
+        "name": "Matron Vess",
+        "weakness": "Mirror shields reflect her beam; strike from behind"
+      },
+      "mission": {
+        "hook": "Rescue Aunt Rhea from Boulderrest. They hold intel for next location.",
+        "mapFeatures": "Sub-basement vault",
+        "stealthTip": "Whistle near bells to misdirect patrols."
+      },
+      "rewards": {
+        "powerUnlocked": "Spectral Decoy (lures enemies)"
+      },
+      "guidance": {
+        "shamanWisdom": "When wolves circle, become the wind, not the tree."
+      }
+    },
+    {
+      "id": 143,
+      "variant": "boy",
+      "location": "Saltspire",
+      "relative": {
+        "name": "Niece Yani",
+        "category": "children"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Swarm Spiders",
+        "Shadow Archer"
+      ],
+      "boss": {
+        "name": "Dreadsmith Orun",
+        "weakness": "Armor overheats near forges; use water barrels"
+      },
+      "mission": {
+        "hook": "Rescue Niece Yani from Saltspire. They hold intel for next location.",
+        "mapFeatures": "Crack-in-wall passage",
+        "stealthTip": "Drop jars to lure wardens away."
+      },
+      "rewards": {
+        "powerUnlocked": "Thunderbrand (charged sword cleave)"
+      },
+      "guidance": {
+        "shamanWisdom": "Every fortress has a forgotten vein; feel for its pulse."
+      }
+    },
+    {
+      "id": 144,
+      "variant": "boy",
+      "location": "Wolfpine",
+      "relative": {
+        "name": "Cousin Sera",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Ash Scorpions",
+        "Rift Scout",
+        "Stormcaller"
+      ],
+      "boss": {
+        "name": "High Warlock Zev",
+        "weakness": "Interrupt chant with sonic arrows"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Sera from Wolfpine. They hold intel for next location.",
+        "mapFeatures": "Cistern sluice",
+        "stealthTip": "Swim the culvert; bypass main gate."
+      },
+      "rewards": {
+        "powerUnlocked": "Ember Dash (flame dash, ignites oil)"
+      },
+      "guidance": {
+        "shamanWisdom": "Listen for lies in the quiet between war drums."
+      }
+    },
+    {
+      "id": 145,
+      "variant": "boy",
+      "location": "Glacier Rim",
+      "relative": {
+        "name": "Sister Lyra",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Ash Scorpions",
+        "Shadow Archer"
+      ],
+      "boss": {
+        "name": "Giant Golem Rauk",
+        "weakness": "Cracks when frozen then shattered"
+      },
+      "mission": {
+        "hook": "Rescue Sister Lyra from Glacier Rim. They hold intel for next location.",
+        "mapFeatures": "Ceiling rafters",
+        "stealthTip": "Mask steps with thunderclaps."
+      },
+      "rewards": {
+        "powerUnlocked": "Frostlock (freeze cone)"
+      },
+      "guidance": {
+        "shamanWisdom": "Mercy is a blade—wield it or sheath it with intent."
+      }
+    },
+    {
+      "id": 146,
+      "variant": "boy",
+      "location": "Echodrift",
+      "relative": {
+        "name": "Aunt Talia",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Ash Scorpions",
+        "Iron Mauler"
+      ],
+      "boss": {
+        "name": "Corsair Queen Nyra",
+        "weakness": "Harpoons jam the ship engine; board aft"
+      },
+      "mission": {
+        "hook": "Rescue Aunt Talia from Echodrift. They hold intel for next location.",
+        "mapFeatures": "Chimney shaft",
+        "stealthTip": "Shadow Archers can be pickpocketed for keys."
+      },
+      "rewards": {
+        "powerUnlocked": "Chain Grapple (pull to ledges/enemies)"
+      },
+      "guidance": {
+        "shamanWisdom": "The sky carries you if you leap with wisdom."
+      }
+    },
+    {
+      "id": 147,
+      "variant": "boy",
+      "location": "Brimstone Pits",
+      "relative": {
+        "name": "Cousin Vela",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Frost Lynxes",
+        "Shock Lancer",
+        "Bone Shaman"
+      ],
+      "boss": {
+        "name": "Bonebreaker Hul",
+        "weakness": "Only staggers after parry-perfect 3 times"
+      },
+      "mission": {
+        "hook": "Rescue Cousin Vela from Brimstone Pits. They hold intel for next location.",
+        "mapFeatures": "Waterwheel duct",
+        "stealthTip": "Ride supply carts through gatehouse."
+      },
+      "rewards": {
+        "powerUnlocked": "Time Slip (slow time briefly)"
+      },
+      "guidance": {
+        "shamanWisdom": "Your blood remembers thrones; let your heart remember people."
+      }
+    },
+    {
+      "id": 148,
+      "variant": "boy",
+      "location": "Larkspur Heights",
+      "relative": {
+        "name": "Uncle Garr",
+        "category": "men"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Razor Eagles",
+        "Shadow Archer"
+      ],
+      "boss": {
+        "name": "Warden Keth",
+        "weakness": "Keys hidden on hawks; shoot them down"
+      },
+      "mission": {
+        "hook": "Rescue Uncle Garr from Larkspur Heights. They hold intel for next location.",
+        "mapFeatures": "Cave fissure",
+        "stealthTip": "Sabotage alarm drums before entry."
+      },
+      "rewards": {
+        "powerUnlocked": "Viper Strike (stacking bleed)"
+      },
+      "guidance": {
+        "shamanWisdom": "A map shows walls; breath finds doors."
+      }
+    },
+    {
+      "id": 149,
+      "variant": "boy",
+      "location": "Brazen Yard",
+      "relative": {
+        "name": "Aunt Kira",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": ""
+      },
+      "enemies": [
+        "Grim Bears",
+        "Siege Grenadier"
+      ],
+      "boss": {
+        "name": "Storm Titan Oxx",
+        "weakness": "Grounded by conductive chains"
+      },
+      "mission": {
+        "hook": "Rescue Aunt Kira from Brazen Yard. They hold intel for next location.",
+        "mapFeatures": "Ivy climb",
+        "stealthTip": "Poison stew pots to thin numbers."
+      },
+      "rewards": {
+        "powerUnlocked": "Sanctum Ward (revive once per stage if unused)"
+      },
+      "guidance": {
+        "shamanWisdom": "Count the steps of your fear, then step once more."
+      }
+    },
+    {
+      "id": 150,
+      "variant": "boy",
+      "location": "Mistwatch",
+      "relative": {
+        "name": "Aunt Leena",
+        "category": "women"
+      },
+      "narrative": {
+        "revelationOrMilestone": "Arc milestone at Stage 150: hidden sigil fragment recovered."
+      },
+      "enemies": [
+        "Tide Serpents",
+        "Shock Lancer",
+        "Phantom Blade"
+      ],
+      "boss": {
+        "name": "Beastmother Siva",
+        "weakness": "Distract cubs; strike when she turns"
+      },
+      "mission": {
+        "hook": "Rescue Aunt Leena from Mistwatch. They hold intel for next location.",
+        "mapFeatures": "Barred postern gate",
+        "stealthTip": "Scale ivy to the watchtower, avoid spotlight."
+      },
+      "rewards": {
+        "powerUnlocked": "Sky Ascent (rapid vertical lift)"
+      },
+      "guidance": {
+        "shamanWisdom": "Even giants drown in inches of truth."
+      }
+    }
+  ]
+}
