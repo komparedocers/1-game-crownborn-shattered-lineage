@@ -1,5 +1,6 @@
 from pydantic_settings import BaseSettings
 from typing import Optional
+import logging
 
 class Settings(BaseSettings):
     # Database
@@ -25,6 +26,11 @@ class Settings(BaseSettings):
     HOST: str = "0.0.0.0"
     PORT: int = 8000
     DEBUG: bool = True
+
+    # Logging
+    LOG_LEVEL: int = logging.INFO  # DEBUG=10, INFO=20, WARNING=30, ERROR=40
+    LOG_TO_FILE: bool = True
+    LOG_TO_CONSOLE: bool = True
 
     class Config:
         env_file = ".env"

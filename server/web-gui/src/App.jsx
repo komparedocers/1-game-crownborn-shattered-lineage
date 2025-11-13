@@ -1,14 +1,67 @@
 import { useState, useEffect } from 'react'
 import axios from 'axios'
+import logger from './utils/logger'
 import './App.css'
 
 const API_BASE = import.meta.env.DEV ? 'http://localhost:8000' : ''
+
+// Setup axios interceptors for logging
+axios.interceptors.request.use(
+  (config) => {
+    const startTime = Date.now()
+    config.metadata = { startTime }
+    logger.logApiRequest(config.method.toUpperCase(), config.url, config.data)
+    return config
+  },
+  (error) => {
+    logger.error('API request setup failed', { error: error.message })
+    return Promise.reject(error)
+  }
+)
+
+axios.interceptors.response.use(
+  (response) => {
+    const duration = Date.now() - response.config.metadata.startTime
+    logger.logApiResponse(
+      response.config.method.toUpperCase(),
+      response.config.url,
+      response.status,
+      response.data,
+      duration
+    )
+    return response
+  },
+  (error) => {
+    if (error.response) {
+      const duration = Date.now() - error.config.metadata.startTime
+      logger.logApiResponse(
+        error.config.method.toUpperCase(),
+        error.config.url,
+        error.response.status,
+        error.response.data,
+        duration
+      )
+    } else {
+      logger.logApiError(
+        error.config?.method?.toUpperCase() || 'UNKNOWN',
+        error.config?.url || 'UNKNOWN',
+        error
+      )
+    }
+    return Promise.reject(error)
+  }
+)
 
 function App() {
   const [leaderboard, setLeaderboard] = useState([])
   const [mode, setMode] = useState('fastest_total')
   const [country, setCountry] = useState('')
   const [loading, setLoading] = useState(false)
+
+  useEffect(() => {
+    logger.logComponentMount('App')
+    return () => logger.logComponentUnmount('App')
+  }, [])
 
   const countries = [
     { code: '', name: 'Global' },
@@ -25,19 +78,28 @@ function App() {
   ]
 
   useEffect(() => {
+    logger.info(`Leaderboard filter changed - Mode: ${mode}, Country: ${country}`)
     fetchLeaderboard()
   }, [mode, country])
 
   const fetchLeaderboard = async () => {
+    logger.logUserAction('FETCH_LEADERBOARD', { mode, country })
     setLoading(true)
+
     try {
       const params = new URLSearchParams({ mode })
       if (country) params.append('country', country)
 
       const response = await axios.get(`${API_BASE}/v1/leaderboard/global?${params}`)
       setLeaderboard(response.data.entries)
+      logger.info(`Leaderboard loaded successfully - ${response.data.entries.length} entries`)
     } catch (error) {
-      console.error('Failed to fetch leaderboard:', error)
+      logger.error('Failed to fetch leaderboard', {
+        mode,
+        country,
+        error: error.message,
+        response: error.response?.data
+      })
       setLeaderboard([])
     } finally {
       setLoading(false)
